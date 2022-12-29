@@ -22,17 +22,22 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^0.11.1",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
-		"@tailwindcss/typography": "^0.3.1",
 		"autoprefixer": "^10.4.13",
-		"cross-env": "^7.0.3",
 		"css-loader": "^5.2.7",
 		"mini-css-extract-plugin": "^1.6.2",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.20",
 		"postcss-import": "^14.1.0",
 		"postcss-loader": "^4.3.0",
-		"tailwindcss": "^2.2.19",
+		"sass": "^1.57.1",
+		"sass-loader": "^13.2.0",
+		"style-loader": "^3.3.1",
 		"webpack": "^5.75.0",
 		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.11.6",
+		"bootstrap": "^5.2.3",
+		"prismjs": "^1.29.0"
 	}
 }
