@@ -1,7 +1,7 @@
 ---
-title: My First blog
+title: How to Add Infinite Scrolling to Your PhotoBiz Website
 layout: post.njk
-featuredImage: ./doggo.jpg
+featuredImage: ./islands.jpg
 pageTitle: This is my other Title
 tags: ["post"]
 ---
@@ -51,6 +51,8 @@ Asterisks
 ---
 
 Underscores
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dictum felis eu pede mollis pretium. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
 
 Aenean commodo ligula eget dolor. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Integer tincidunt.
 
