@@ -34,7 +34,12 @@ module.exports = {
 						loader: 'sass-loader'
 					}
 				]
-			}
+			},
+			{
+				// Bootstrap icons processing
+				test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/i,
+				type: 'asset/resource',
+			},
 		]
 	}
 }

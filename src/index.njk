@@ -7,41 +7,39 @@ pagination:
   reverse: true
   alias: posts
 ---
-<section>
-    <div class="row">
-        <div class="col-12 my-4 mx-auto">
-            <h3 class="border-bottom pb-1 mb-3">Posts</h3>
+<div class="row">
+    <div class="col-12 col-lg-10 mb-4 mx-auto">
+        <h3 class="border-bottom pb-1 mb-3">Posts</h3>
+        {% for post in posts %}
+            {{ post.data.page | log }}
+            <a href="{{ post.url | url }}" class="text-decoration-none">
+                <h2 class="h4 mb-0" style="font-weight: 800;line-height:1;">
+                    {{ post.data.title }}
+                </h2>
+            </a>
+            <p class="fst-italic text-muted">September 24, 2022</p>
+        {% endfor %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-lg-10 mb-4 mx-auto">
+        <h3 class="border-bottom pb-1 mb-3">Projects</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
+            {# TODO: replace with projects content #}
             {% for post in posts %}
                 {{ post.data.page | log }}
-                <a href="{{ post.url | url }}" class="text-decoration-none">
-                    <h2 class="h4 mb-0" style="font-weight: 800;line-height:1;">
-                        {{ post.data.title }}
-                    </h2>
-                </a>
-                <p class="fst-italic text-muted">September 24, 2022</p>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src={{ post.url }}{{ post.data.featuredImage }} class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="{{ post.url | url }}" class="text-decoration-none">
+                                <h6 class="card-title">{{ post.data.title }}</h6>
+                            </a>
+                            <p class="card-text small">{{ post.data.page.excerpt }}</p>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 my-4 mx-auto">
-            <h3 class="border-bottom pb-1 mb-3">Projects</h3>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
-                {# TODO: replace with projects content #}
-                {% for post in posts %}
-                    {{ post.data.page | log }}
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src={{ post.url }}{{ post.data.featuredImage }} class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="{{ post.url | url }}" class="text-decoration-none">
-                                    <h6 class="card-title">{{ post.data.title }}</h6>
-                                </a>
-                                <p class="card-text small">{{ post.data.page.excerpt }}</p>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
+</div>
