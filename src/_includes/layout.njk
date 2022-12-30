@@ -8,9 +8,9 @@
     <title>{{ title }}</title>
     {% block head %}{% endblock %}
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="container d-flex flex-column">
 {% include 'header.njk' %}
-<main class="container flex-grow py-8">
+<main class="flex-grow-1">
     {{ content | safe }}
  </main>
 {% include 'footer.njk' %}
