@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Chase Woodford | Designer & Developer
 layout: layout.njk
 pagination:
   data: collections.post
@@ -9,26 +9,23 @@ pagination:
 ---
 <section>
     <div class="row">
-        <div class="col-12 col-lg-8 mx-auto mb-4">
-            <h3 class="text-center">Posts</h3>
-            <ul class="list-group list-group-flush">
-                {% for post in posts %}
-                    {{ post.data.page | log }}
-                    {# TODO: style post list #}
-                    <a href="{{ post.url | url }}" class="list-group-item list-group-item-action" aria-current="true">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1 me-5">{{ post.data.title }}</h5>
-                            <small class="text-nowrap" title="pub date">2022-12-31</small>
-                        </div>
-                    </a>
-                {% endfor %}
-            </ul>
+        <div class="col-12 my-4 mx-auto">
+            <h3 class="border-bottom pb-1 mb-3">Posts</h3>
+            {% for post in posts %}
+                {{ post.data.page | log }}
+                <a href="{{ post.url | url }}" class="text-decoration-none">
+                    <h2 class="h4 mb-0" style="font-weight: 800;line-height:1;">
+                        {{ post.data.title }}
+                    </h2>
+                </a>
+                <p class="fst-italic text-muted">September 24, 2022</p>
+            {% endfor %}
         </div>
     </div>
     <div class="row">
-        <div class="col-12 col-lg-8 mx-auto mb-4">
-            <h3 class="text-center">Projects</h3>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-4 justify-content-center">
+        <div class="col-12 my-4 mx-auto">
+            <h3 class="border-bottom pb-1 mb-3">Projects</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
                 {# TODO: replace with projects content #}
                 {% for post in posts %}
                     {{ post.data.page | log }}
@@ -36,7 +33,7 @@ pagination:
                         <div class="card h-100">
                             <img src={{ post.url }}{{ post.data.featuredImage }} class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a href="{{ post.url | url }}">
+                                <a href="{{ post.url | url }}" class="text-decoration-none">
                                     <h6 class="card-title">{{ post.data.title }}</h6>
                                 </a>
                                 <p class="card-text small">{{ post.data.page.excerpt }}</p>
