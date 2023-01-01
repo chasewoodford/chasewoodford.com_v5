@@ -1,8 +1,7 @@
 ---
 title: The Difference Between Constant and Variable Bitrate
 layout: post.njk
-featuredImage: ./doggo.jpg
-pageTitle: This is my other Title
+date: 2016-08-16
 tags: ["post"]
 ---
 

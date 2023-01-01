@@ -1,18 +1,26 @@
+const pluginDate = require("eleventy-plugin-date");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (config) => {
-	config.addPlugin(syntaxHighlight);
+
 	config.addPassthroughCopy({ "src/assets": "assets" });
-	config.setFrontMatterParsingOptions({
-		excerpt: true,
-		excerpt_separator: "<!-- excerpt -->",
-	});
-	config.setTemplateFormats(["jpg", "png", "webp", "md", "njk"]);
+
+	config.addPlugin(pluginDate);
+	config.addPlugin(syntaxHighlight);
+
 	config.setBrowserSyncConfig({
 		files: ["dist/**/*"],
 		open: true,
 	});
+
 	config.setDataDeepMerge(true);
+
+	config.setFrontMatterParsingOptions({
+		excerpt: true,
+		excerpt_separator: "<!-- excerpt -->",
+	});
+
+	config.setTemplateFormats(["jpg", "png", "webp", "md", "njk"]);
 
 	return {
 		dir: {

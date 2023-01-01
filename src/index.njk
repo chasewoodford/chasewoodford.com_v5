@@ -3,43 +3,72 @@ title: Chase Woodford | Designer & Developer
 layout: layout.njk
 pagination:
   data: collections.post
-  size: 6
+  size: 5
   reverse: true
   alias: posts
 ---
 <div class="row">
     <div class="col-12 col-lg-10 mb-4 mx-auto">
         <h3 class="border-bottom pb-1 mb-3">Posts</h3>
-        {% for post in posts %}
-            {{ post.data.page | log }}
-            <a href="{{ post.url | url }}" class="text-decoration-none">
-                <h2 class="h4 mb-0" style="font-weight: 800;line-height:1;">
+        {% if posts.length %}
+            {% for post in posts %}
+                {{ post.data.page | log }}
+                <a href="{{ post.url | url }}" class="fw-bold text-decoration-none">
                     {{ post.data.title }}
-                </h2>
-            </a>
-            <p class="fst-italic text-muted">September 24, 2022</p>
-        {% endfor %}
+                </a>
+                <p class="fst-italic text-muted small">{{ post.data.date | readableDate }}</p>
+            {% endfor %}
+            <nav>
+                <ul class="pagination">
+                    {% if pagination.href.previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ pagination.href.previous }}">&laquo;&nbsp;Newer Posts</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="{{ pagination.href.previous }}">&laquo;&nbsp;Newer Posts</a>
+                        </li>
+                    {% endif %}
+                    {% if pagination.href.next %}
+                        <li class="page-item">
+                            <a class="page-link" href="{{ pagination.href.next }}">Older Posts&nbsp;&raquo;</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="{{ pagination.href.next }}">Older Posts&nbsp;&raquo;</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        {% else %}
+            <p class="text-muted">No posts exist.</p>
+        {% endif %}
     </div>
 </div>
 <div class="row">
     <div class="col-12 col-lg-10 mb-4 mx-auto">
         <h3 class="border-bottom pb-1 mb-3">Projects</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
-            {# TODO: replace with projects content #}
-            {% for post in posts %}
-                {{ post.data.page | log }}
-                <div class="col">
-                    <div class="card h-100">
-                        <img src={{ post.url }}{{ post.data.featuredImage }} class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="{{ post.url | url }}" class="text-decoration-none">
-                                <h6 class="card-title">{{ post.data.title }}</h6>
-                            </a>
-                            <p class="card-text small">{{ post.data.page.excerpt }}</p>
+            {% if projects.length %}
+                {% for project in projects %}
+                    {{ project.data.page | log }}
+                    <div class="col">
+                        <div class="card h-100">
+                            <img class="card-img-top"
+                                 alt="{{ project.data.featuredImageAlt }}"
+                                 src={{ project.url }}{{ project.data.featuredImage }}>
+                            <div class="card-body">
+                                <a href="{{ project.url | url }}" class="text-decoration-none">
+                                    <h6 class="card-title">{{ project.data.title }}</h6>
+                                </a>
+                                <p class="card-text small">{{ project.data.page.excerpt }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            {% else %}
+                <p class="text-muted">No projects exist.</p>
+            {% endif %}
         </div>
     </div>
 </div>
