@@ -20,7 +20,7 @@ module.exports = (config) => {
 		excerpt_separator: "<!-- excerpt -->",
 	});
 
-	config.setTemplateFormats(["jpg", "png", "webp", "md", "njk"]);
+	config.setTemplateFormats(["jpg", "png", "gif", "webp", "md", "njk"]);
 
 	return {
 		dir: {
