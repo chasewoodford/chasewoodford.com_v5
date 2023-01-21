@@ -7,6 +7,7 @@ pagination:
   reverse: true
   alias: posts
 ---
+
 <div class="row">
     <div class="col-12 col-lg-10 mb-4 mx-auto">
         <div class="d-flex flex-row align-items-center border-bottom pb-1 mb-3">
@@ -52,7 +53,7 @@ pagination:
         <h3 class="border-bottom pb-1 mb-3">Projects</h3>
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
             {% if collections.project.length %}
-                {% for project in collections.project %}
+                {% for project in collections.project | reverse %}
                     {{ project.data.page | log }}
                     <div class="col">
                         <a href="{{ project.url | url }}" class="text-decoration-none">
