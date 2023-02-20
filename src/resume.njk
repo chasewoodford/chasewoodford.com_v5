@@ -5,6 +5,157 @@ layout: layout.njk
 
 <div class="row">
     <div class="col-12 col-lg-10 mb-4 mx-auto">
-        <h3 class="border-bottom pb-1 mb-3">Resume</h3>
+        <div class="d-flex flex-row align-items-center border-bottom pb-1 mb-3">
+            <h3 class="p-0 m-0 me-auto">Resume</h3>
+            {# TODO: implement using jsPDF // https://micropyramid.com/blog/export-html-web-page-to-pdf-using-jspdf/ #}
+            <button type="button" class="btn btn-primary btn-sm">Download PDF</button>
+        </div>
+        <div class="container p-2 p-lg-4">
+            <div id="resume" class="p-5 border shadow">
+                <div class="d-flex flex-column align-items-center container-contact">
+                    <div class="d-flex flex-column flex-md-row align-items-baseline fw-bold resume-name">
+                        <h1 class="h2 me-2 fw-bold resume-name">Chase Woodford</h1>
+                        <h2 class="h4 resume-title">/ designer / developer</h2>
+                    </div>
+                    <div class="resume-sm small text-muted">
+                        <a href="https://www.chasewoodford.com" class="text-decoration-none text-muted">chasewoodford.com</a>
+                        <span class="mx-1">&bull;</span>
+                        <a href="https://github.com/chasewoodford" class="text-decoration-none text-muted">github.com/chasewoodford</a>
+                        <span class="mx-1">&bull;</span>
+                        <a href="https://twitter.com/chasewoodford" class="text-decoration-none text-muted">twitter.com/chasewoodford</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-start container-summary my-5">
+                    <p class="mb-0 text-muted resume-summary">
+                        Highly motivated and experienced software engineer with a passion for developing innovative
+                        solutions to complex problems. Experienced in full-stack and mobile application development,
+                        graphic design, and audio/visual composition.
+                    </p>
+                </div>
+                <div class="d-flex flex-column align-items-start container-employment mb-4">
+                    <div class="mb-2 resume-employment-company">
+                        <span class="h3 me-1 fw-bold resume-section-header">Verilogue</span>
+                        <span class="h4 resume-section-title">/ employment</span>
+                    </div>
+                    <div class="mb-2 small fw-bold resume-employment-type">
+                        Jan 2012 &mdash; Present Developer, Application Development
+                    </div>
+                    <div class="mb-3 resume-employment-experience">
+                        <ul class="text-muted">
+                            <li>Lead UI/UX design and front-end development of all web, desktop and mobile
+                                applications, including: verilogue.com and physician mobile app; carecoach.com and
+                                patient mobile app (retired); revealmr.com, a client-facing content management system;
+                                logueworks.com, an automated workflow service; and sales training iPad and desktop
+                                applications
+                            </li>
+                            <li>Assist in architectural development and maintenance of SQL databases and Amazon Web
+                                Services
+                            </li>
+                            <li>Produce promotional content for both internal and external marketing efforts, including:
+                                audio/video teasers; Marketo e-mail campaigns; microsites and landing pages; and social
+                                media outlets
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-2 small fw-bold resume-employment-type">
+                        Jul 2006 &mdash; Jan 2012 Manager, Field Services
+                    </div>
+                    <div class="mb-3 resume-employment-experience">
+                        <ul class="text-muted">
+                            <li>Manage transcription/translation team of 12 company vendors and ~150 individuals</li>
+                            <li>Ensure accuracy and HIPAA compliance of a database containing 110,000+ interactions,
+                                spanning 12 international markets, 138 disease states and various multimedia formats
+                            </li>
+                            <li>Meet requirements and deadlines for projects sold to over 150 brand teams, including all
+                                top 20 of the world’s largest pharmaceutical companies
+                            </li>
+                            <li>Manage annual throughput from low of 1,975 healthcare interactions per year (2007) to
+                                high of 16,080 (2009), a 714% increase in capacity
+                            </li>
+                            <li>Reduce transcript processing turn-around time from high of 41 days (2007) to low of 3
+                                days (2015), a 92.7% improvement in efficiency
+                            </li>
+                            <li>Negotiate cost of transcription down from $1.80/audio minute to $0.40/audio minute, a
+                                78% reduction in cost per interaction
+                            </li>
+                            <li>Effect yearly company-wide cost-savings of ~$455,000 (~$24K on management, ~$431K on
+                                production)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between mb-4">
+                    <div class="col pe-5 container-skills">
+                        <div class="mb-2 container-header">
+                             <span class="h3 me-1 fw-bold resume-section-header">Proficiencies</span>
+                            <span class="h4 resume-section-title">/ skills</span>
+                        </div>
+                        <div class="resume-skills">
+                            <ul class="text-muted">
+                                <li>
+                                    AWS<small class="footnote"><sup>*</sup></small>, Bootstrap, CSS, Git,
+                                    Hibernate<small class="footnote"><sup>*</sup></small>, HTML, Java/JEE<small
+                                            class="footnote"><sup>*</sup></small>, JavaScript, jQuery, MVC, npm, PHP,
+                                    React<small class="footnote"><sup>*</sup></small>, Ruby<small class="footnote"><sup>*</sup></small>,
+                                    Sass, Spring<small class="footnote"><sup>*</sup></small>, SQL<small
+                                            class="footnote"><sup>*</sup></small>, SVN, Swift<small
+                                            class="footnote"><sup>*</sup></small>, Thymeleaf, webpack
+                                </li>
+                                <li>WordPress, Joomla!</li>
+                                <li>Adobe Creative Cloud, Balsamiq</li>
+                                <li>Sony Creative Software</li>
+                                <li>Agile with Scrum, JIRA, Asana</li>
+                                <li>Microsoft Office Suite, Visio, SharePoint</li>
+                                <li>Marketo, HubSpot<small class="footnote"><sup>*</sup></small></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col pe-5 container-projects">
+                        <div class="mb-2 container-header">
+                            <span class="h3 me-1 fw-bold resume-section-header">Recent Projects</span>
+                            <span class="h4 resume-section-title">/ experience</span>
+                        </div>
+                        <div class="resume-projects">
+                            <ul class="text-muted">
+                                <li><a href="/projects/smart-beat/" class="text-decoration-none text-muted">Smart Beat (iOS app)</a></li>
+                                <li><a href="/projects/town-trekkers/" class="text-decoration-none text-muted">Town Trekkers (multimedia)</a></li>
+                                <li><a href="/projects/aj-originals/" class="text-decoration-none text-muted">AJ Originals (website)</a></li>
+                                <li><a href="/projects/logueworks/" class="text-decoration-none text-muted">LogueWorks (Java application)</a></li>
+                                <li><a href="/projects/reveal-mr/" class="text-decoration-none text-muted">RevealMR (Java application)</a></li>
+                                <li><a href="/projects/calm-focus/" class="text-decoration-none text-muted">Calm Focus (website)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between mb-4">
+                    <div class="col pe-5 container-education">
+                        <div class="mb-2 container-header">
+                            <span class="h3 me-1 fw-bold resume-section-header">Temple Univ.</span>
+                            <span class="h4 resume-section-title">/ education</span>
+                        </div>
+                        <div class="resume-education">
+                            <ul class="text-muted">
+                                <li>BA advertising, sociology minor, 2007</li>
+                                <li>Member, Temple Student Government</li>
+                                <li>Brother, Alpha Tau Omega Fraternity</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col pe-5 container-references">
+                        <div class="mb-2 container-header">
+                             <span class="h3 fw-bold resume-section-header">References</span>
+                        </div>
+                        <div class="resume-references">
+                            <ul class="text-muted">
+                                <li>Available upon request</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <small class="footnote"><sup>*</sup> Denotes working proficiency</small>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

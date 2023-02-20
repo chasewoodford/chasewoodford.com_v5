@@ -1,0 +1,41 @@
+%font-open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+%font-noto-sans {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.resume-name {
+	@extend %font-open-sans;
+	color: $resume-title-color;
+}
+
+.resume-title {
+	@extend %font-noto-sans;
+	color: $gray-800;
+}
+
+.resume-sm, .resume-summary {
+	@extend %font-noto-sans;
+}
+
+.resume-section-header {
+	@extend %font-open-sans;
+	color: $resume-title-color;
+}
+
+.resume-section-title {
+	@extend %font-noto-sans;
+	color: $gray-800;
+}
+
+.resume-employment-type {
+	@extend %font-noto-sans;
+	color: $gray-600;
+}
+
+.footnote {
+	@extend %font-open-sans;
+	color: $resume-title-color;
+}
