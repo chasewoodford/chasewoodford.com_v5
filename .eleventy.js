@@ -5,6 +5,9 @@ module.exports = (config) => {
 
 	config.addPassthroughCopy({ "src/assets": "assets" });
 
+	// PHP pages
+	config.addPassthroughCopy("src/playground/weight-tracker");
+
 	config.addPlugin(pluginDate);
 	config.addPlugin(syntaxHighlight);
 

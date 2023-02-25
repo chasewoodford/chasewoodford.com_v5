@@ -1,3 +1,13 @@
 html, body {
 	height: 100%;
 }
+
+#logo {
+	filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(1px 0 0 #fff) drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+	transition: all 250ms ease;
+
+	&:hover {
+		filter: drop-shadow(0 1px 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(1px 0 0 #fff) drop-shadow(0 2px 5px rgba(0,0,0,0));
+		transform: translateY(2px);
+	}
+}
