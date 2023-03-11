@@ -18,11 +18,6 @@ module.exports = (config) => {
 
 	config.setDataDeepMerge(true);
 
-	config.setFrontMatterParsingOptions({
-		excerpt: true,
-		excerpt_separator: "<!-- excerpt -->",
-	});
-
 	config.setTemplateFormats(["jpg", "png", "gif", "webp", "md", "njk"]);
 
 	return {

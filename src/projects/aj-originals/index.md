@@ -5,8 +5,7 @@ featuredImage: screenshot-AJOriginals.gif
 featuredImageAlt: website preview
 date: 2014-10-27
 tags: ["project"]
+projectDescription: Website for yacht furniture and signage business.
 ---
 
 Coming soon
-
-<!-- excerpt -->
