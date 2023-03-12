@@ -11,7 +11,7 @@ projectDescription: Java application for storing, sharing, and mining insights f
 From Verilogue's website, <a href="http://verilogue.com/technology/revealmr" target="_blank">"Reveal<sup>MR</sup> is a
 cloud-based solution that maximizes your organization’s efficiency by revolutionizing the way you store, share, and mine
 volumes of research data."</a> Reveal<sup>MR</sup> dates back to 2008 and has undergone constant refinement since
-then. (<a href="/wp-content/themes/v2/images/portfolio/highlight-revealmr-001.png">Here's an example of what one of the
+then. (<a href="highlight-revealmr-001.png">Here's an example of what one of the
 earliest versions of the platform looked like</a>.) In its current state, it leverages state-of-the-art technologies,
 coupled with modern web design, providing an unparalleled turnkey platform for data
 analysis. (<a href="/resources/video/reveal-onScreenExplainer.mp4">Watch a short introductory video and see Reveal<sup>
