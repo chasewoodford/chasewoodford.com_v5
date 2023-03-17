@@ -8,7 +8,7 @@ layout: layout.njk
         <div class="d-flex flex-row align-items-center border-bottom pb-1 mb-3">
             <h3 class="p-0 m-0 me-auto">Resume</h3>
             {# TODO: implement using jsPDF // https://micropyramid.com/blog/export-html-web-page-to-pdf-using-jspdf/ #}
-            <button type="button" class="btn btn-primary btn-sm">Download PDF</button>
+            {# <button type="button" class="btn btn-primary btn-sm">Download PDF</button> #}
         </div>
         <div class="container p-2 p-lg-4">
             <div id="resume" class="p-5 border shadow">
@@ -37,8 +37,13 @@ layout: layout.njk
                         <span class="h3 me-1 fw-bold resume-section-header">Verilogue</span>
                         <span class="h4 resume-section-title">/ employment</span>
                     </div>
-                    <div class="mb-2 small fw-bold resume-employment-type">
-                        Jan 2012 &mdash; Present Developer, Application Development
+                    <div class="d-flex flex-row justify-content-between w-100 my-3">
+                        <div class="small fw-bold resume-employment-type">
+                            Developer, Application Development
+                        </div>
+                        <div class="small fw-bold resume-employment-period">
+                            Jan 2012 &mdash; Present
+                        </div>
                     </div>
                     <div class="mb-3 resume-employment-experience">
                         <ul class="text-muted">
@@ -57,8 +62,13 @@ layout: layout.njk
                             </li>
                         </ul>
                     </div>
-                    <div class="mb-2 small fw-bold resume-employment-type">
-                        Jul 2006 &mdash; Jan 2012 Manager, Field Services
+                    <div class="d-flex flex-row justify-content-between w-100 my-3">
+                        <div class="small fw-bold resume-employment-type">
+                            Manager, Field Services
+                        </div>
+                        <div class="small fw-bold resume-employment-period">
+                            Jul 2006 &mdash; Jan 2012
+                        </div>
                     </div>
                     <div class="mb-3 resume-employment-experience">
                         <ul class="text-muted">

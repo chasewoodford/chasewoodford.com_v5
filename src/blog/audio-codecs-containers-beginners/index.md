@@ -6,14 +6,14 @@ tags: ["post"]
 ---
 
 "I get an error that says: 'PowerPoint cannot insert an audio from the selected file. Verify that the necessary codec
-for this media format is installed, and try again.' I've tried on two different computers and I can't get the audio file
+for this media format is installed, and try again.' I've tried on two different computers, and I can't get the audio file
 to play. Have you ever run into this before?"
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="blog-audioCodecsAndContainers-001.png" alt="Windows Media Player codec error message"></div>
 
 Yes. I get this question all the time. It comes in various forms. How do I open this file in Audacity? Why can't Windows 
 Media Player play this file? How come I can't play this recording I made on my phone on my desktop? In fact, the reason 
-I'm writing this post is because I hear this question so frequently that I want to have a resource I can point people 
+I'm writing this post because I hear this question so frequently that I want to have a resource I can point people 
 to that will help explain what's going on.
 
 It can be puzzling for sure. The problem: you have an audio file with an extension that's ubiquitous, though none of the
@@ -89,7 +89,7 @@ that's the case, good luck, you've got a much bigger problem to deal with.
 
 <h4 id="tidbits">Tidbits and Talking Points</h4>
 
-Need a conversational ice breaker or something to wow the crowd? Try one of these.
+Need a conversational icebreaker or something to wow the crowd? Try one of these.
 
 Codec stands for <b>co</b>der/<b>dec</b>oder.
 
@@ -113,7 +113,7 @@ different digital audio format is called transcoding. However, today the two wor
 Still looking for more? Here are the most common links I share with people when helping them work through multimedia
 processing issues:
 
-<ul class="disc">
+<ul>
  	<li><a title="Video and audio file formats supported in PowerPoint" href="https://support.office.com/en-us/article/Video-and-audio-file-formats-supported-in-PowerPoint-d8b12450-26db-4c7b-a5c1-593d3418fb59" target="_blank" rel="noopener">Video and audio file formats supported in PowerPoint</a></li>
  	<li><a title="List of codecs" href="https://en.wikipedia.org/wiki/List_of_codecs" target="_blank" rel="noopener">List of codecs</a></li>
  	<li><a title="FFmpeg Codecs Documentation" href="http://ffmpeg.org/ffmpeg-codecs.html" target="_blank" rel="noopener">FFmpeg Codecs Documentation</a></li>
