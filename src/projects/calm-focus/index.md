@@ -8,10 +8,10 @@ tags: ["project"]
 projectDescription: Website promoting the benefits of biofeedback.
 ---
 
-After finishing a re-design on <a href="http://chasewoodford.com/work/digital/gary-ames.php" title="garyames.net">his
-personal site</a>, Gary Ames wanted to update his other web properties that promote his work as licensed psychologist
-and <a href="http://en.wikipedia.org/wiki/Biofeedback" target="_blank">biofeedback</a> consultant. The primary entry
-point for these properties is <a href="http://www.calmfocus.com" title="see it live">calmfocus.com</a>.
+After finishing a re-design on his personal site, Gary Ames wanted to update his other web properties that promote his 
+work as licensed psychologist and <a href="http://en.wikipedia.org/wiki/Biofeedback" target="_blank">biofeedback</a> 
+consultant. The primary entry point for these properties is 
+<a href="http://www.calmfocus.com" title="see it live">calmfocus.com</a>.
 
 The site is loaded with information, mostly in the form of articles and presentations describing the benefits of
 biofeedback, with the goal of converting site visits into inqueries for more details on Gary's services. The older
@@ -130,7 +130,7 @@ identify and implement a bunch of content delivery optimizations not implemented
 
 We were fortunate to have a third party, <a href="http://www.practicebuilders.com/" target="_blank">Practice
 Builders</a>, help evaluate and guide the development of the site. Here is their
-initial <a href="http://www.chasewoodford.com/resources/documents/calmFocus-webEvaluationReport.pdf">Web Evaluation
+initial <a href="/resources/documents/calmFocus-webEvaluationReport.pdf">Web Evaluation
 Report</a>. Though the report gives the site a relatively low overall score, it should be noted that this evaluation was
 done very early in the development process. As the lone developer on this project, it was good to have outside
 validation of the work completed so far. It was also reassuring to see that the roadmap I had laid out for the

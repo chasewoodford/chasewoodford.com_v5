@@ -3,9 +3,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = (config) => {
 
-	config.addPassthroughCopy({ "src/assets": "assets" });
-
-	// PHP pages
+	config.addPassthroughCopy( "src/assets");
+	config.addPassthroughCopy( "src/resources");
 	config.addPassthroughCopy("src/playground/weight-tracker");
 
 	config.addPlugin(pluginDate);
@@ -18,12 +17,12 @@ module.exports = (config) => {
 
 	config.setDataDeepMerge(true);
 
-	config.setTemplateFormats(["jpg", "png", "gif", "webp", "md", "njk"]);
+	config.setTemplateFormats(["png", "md", "njk"]);
 
 	return {
 		dir: {
 			input: "src",
-			output: "dist",
-		},
+			output: "dist"
+		}
 	};
 };

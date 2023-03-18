@@ -25,7 +25,7 @@ key design elements and showcase businesses and locations of pilot episode.
 <h4>The Mix</h4>
 
 We started
-by <a href="http://www.chasewoodford.com/resources/documents/townTrekkers-storyBoard.pdf" title="View the storyboard">
+by <a href="/resources/documents/townTrekkers-storyBoard.pdf" title="View the storyboard">
 storyboarding the theme</a>. We wanted the video to follow along with the lyrics of the theme's music, so that guided
 most of our storyboarding. But much like finding the perfect stock photo can be a time-consuming process, so can finding
 the perfect scene from several hours of footage. Luckily, between the two of us we finish this task pretty quickly. He

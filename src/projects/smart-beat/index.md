@@ -17,9 +17,18 @@ relationships between agencies within the group.
 
 More specifically, the hackathon challenge was to:
 
-<blockquote class="blockquote" cite="http://www.chasewoodford.com/resources/documents/PHCG_Health_Hack.pdf">
-    <p>"Develop an iOS app&mdash;preferably utilizing the Apple Healthkit&mdash;that creates a more positive patient experience orhelps to improve patient outcomes in some way. It can be around any condition, disease state or other health and wellness related topic."</p>
-</blockquote>
+<figure class="bg-light p-3 rounded border">
+    <blockquote class="blockquote fst-italic">
+        <p class="small">
+            "Develop an iOS app&mdash;preferably utilizing the Apple Healthkit&mdash;that creates a more positive patient experience 
+            or helps to improve patient outcomes in some way. It can be around any condition, disease state or other 
+            health and wellness related topic."
+        </p>
+    </blockquote>
+    <figcaption class="blockquote-footer mt-2 mb-0">
+        <cite><a href="/resources/documents/PHCG_Health_Hack.pdf" target="_blank" rel="noopener noreferrer">PHCG Health Hack</a></cite>
+    </figcaption>
+</figure>
 
 It was an amazing 24 hours of iOS hacking. The thing that impressed me the most was all the incredible talent within the
 PHCG group, and how quickly and easily we were all able to come together and build some really cool stuff. I made a
@@ -29,7 +38,7 @@ Smart Beat app.
 <h4>The Idea</h4>
 
 We brainstormed
-a <a href="http://www.chasewoodford.com/resources/documents/Health%20Hack%20Ideas.pdf" title="Idea brainstorm for HealthHack">
+a <a href="/resources/documents/Health%20Hack%20Ideas.pdf" title="Idea brainstorm for HealthHack">
 bunch of really great ideas</a> on a conference call a couple days prior to the event. But given the time limitations
 for development, we opted for an idea that would create a more positive patient experience and improved patient outcome
 specifically for stroke patients. We wanted to focus on a singular disease state and micro-interactions within that
@@ -111,8 +120,8 @@ light of day.
 <h4>Links</h4>
 
 <ul>
-    <li>Event Announcement: <a href="http://www.chasewoodford.com/resources/documents/PHCG_Health_Hack.pdf" title="PHCG HealthHack Announcement">PHCG HealthHack Announcement</a></li>
-    <li>Idea Brainstorm: <a href="http://www.chasewoodford.com/resources/documents/Health%20Hack%20Ideas.pdf" title="HealthHack Idea Brainstorm">HealtHack Idea Brainstorm</a></li>
+    <li>Event Announcement: <a href="/resources/documents/PHCG_Health_Hack.pdf" title="PHCG HealthHack Announcement">PHCG HealthHack Announcement</a></li>
+    <li>Idea Brainstorm: <a href="/resources/documents/Health%20Hack%20Ideas.pdf" title="HealthHack Idea Brainstorm">HealtHack Idea Brainstorm</a></li>
     <li>GitHub Repository: <a href="https://github.com/chasewoodford/StrokeApp" title="Smart Beat code on GitHub">https://github.com/chasewoodford/StrokeApp</a></li>
 </ul>
 

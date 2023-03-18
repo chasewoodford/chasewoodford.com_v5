@@ -22,7 +22,7 @@ So what exactly is FFmpeg? It is a command line tool you can use to edit a varie
 ffmpeg.org:
 
 <figure class="bg-light p-3 rounded border">
-  <blockquote class="blockquote fst-italic mb-0">
+  <blockquote class="blockquote fst-italic">
     <p class="small">
         FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and 
         play pretty much anything that humans and machines have created. It supports the most obscure ancient formats 

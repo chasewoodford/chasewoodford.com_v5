@@ -39,18 +39,18 @@ In short, everyone can be categorized into one of four Social Styles buckets: <b
 Amiable</b> or <b>Analytical</b>. And it's pretty easy to figure out what bucket you, or anyone else, fall into by
 asking the following questions:
 
-<ul class="disc">
+<ul>
  	<li>Is the person more task oriented or more people oriented?</li>
  	<li>Does the person tend to ask more questions or tell others what to do?</li>
 </ul>
 
 Answering those questions, and charting the answers on the graph below, is how you identify a person's Social Style.
 
-<div class="text-center"><img class="mw-100 mb-4 shadow border" src="blog-understandingSocialStyles-001.png" alt="Wilson Learning Corporation Social Styles Matrix"></div>
+<div class="text-center"><img class="mw-100 mb-4" src="blog-understandingSocialStyles-001.png" alt="Wilson Learning Corporation Social Styles Matrix"></div>
 
 Here's a quick definition of each Social Style:
 
-<ul class="disc">
+<ul>
  	<li><b>Driving</b>: strong willed and more emotionally controlled</li>
  	<li><b>Expressive</b>: outgoing and more dramatic</li>
  	<li><b>Amiable</b>: easy going and more supportive</li>
@@ -68,7 +68,7 @@ We were then asked to think about the people we considered difficult to work wit
 summarizes each Social Style's strengths and weaknesses, we were asked to come up with ways to improve our relationships
 with these people.
 
-<div class="text-center"><img class="mw-100 mb-4 shadow border" src="blog-understandingSocialStyles-002.png" alt="Wilson Learning Corporation Summary of Style Preferences"></div>
+<div class="text-center"><img class="mw-100 mb-4" src="blog-understandingSocialStyles-002.png" alt="Wilson Learning Corporation Summary of Style Preferences"></div>
 
 To improve a relationship with someone else, according to the Social Styles model, you need to do two things: 
 recognize the other person's Social Style and then modify your Social Style in a way that enables reaching a mutual 

@@ -7,7 +7,7 @@ tags: ["post"]
 
 The difference between Constant Bitrate (CBR) and Variable Bitrate (VBR) is the focus of Part 2 of my recent audio file
 exploration. In case you missed Part 1, you
-can <a title="Audio Codecs and Containers for Beginners" href="http://www.chasewoodford.com/blog/audio-codecs-containers-beginners/">
+can <a title="Audio Codecs and Containers for Beginners" href="/blog/audio-codecs-containers-beginners/">
 learn about audio codecs and containers here</a>.
 
 First, we should define what a bitrate is. A bitrate refers to the number of bits (data) processed over a given amount
