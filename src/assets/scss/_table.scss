@@ -1,6 +1,7 @@
 .table-playground tr {
 	td {
 		a {
+			display: flex;
 			margin-left: 1rem;
 			margin-right: 2rem;
 		}
@@ -9,13 +10,17 @@
 			display: block;
 			margin-left: 1rem;
 			margin-right: 1rem;
+
+			&.ebook {
+				width: 50px;
+			}
 		}
 
 		&:first-child {
 			background-color: $gray-100;
 		}
 
-		&:first-child, &:nth-child(2) {
+		&:first-child {
 			width: 1px;
 			white-space: nowrap;
 		}
