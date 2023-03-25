@@ -15,6 +15,10 @@ He had the show's name and logo already designed, had theme music composed and r
 needed someone who could pull everything together for the show's theme&mdash;someone who could refine the audio
 composition as well as mix all the footage into a professional looking minute-long introduction for the show.
 
+<video class="d-flex w-75 my-4 mx-auto shadow border" controls>
+    <source src="/resources/video/townTrekkersIntro.mp4" type="video/mp4">
+</video>
+
 I was excited by the opportunity. The concept of Town Trekkers was interesting and unique. The theme song was catchy.
 The footage he had to work with was great, including high-definition and aerial video shot via drone. He's also been a
 great guy to work with in the past. So I was all in on the project.
