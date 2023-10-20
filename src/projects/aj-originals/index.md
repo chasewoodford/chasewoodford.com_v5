@@ -28,7 +28,7 @@ I was asked to overhaul the site&mdash;give it a modern look, make it more user-
 as opposed to against it. I took all the good copy and imagery from the current site and re-worked it into a single page
 site that is both modern-looking and highly accessible. This was a fun weekend project done pro-bono.
 
-<h4>Responsive Design</h4>
+<h4 class="mt-5 mb-3">Responsive Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4" src="highlight-AJOriginals-003.png" alt="Responsive design highlight"></div>
 
@@ -41,7 +41,7 @@ the main image would fill the entire screen on initial page load. I also used CS
 in certain places, and the <code>column-count</code> changes depending on viewport size. These are just two examples of
 many on the site where responsive design is applied.
 
-<h4>Parallax Scrolling</h4>
+<h4 class="mt-5 mb-3">Parallax Scrolling</h4>
 
 One of the coolest parts of this site is how the background image moves in relation to foreground content as the user
 scrolls the page. It's a very subtle parallax effect. I think it gives the site a "yacht floating on the ocean" feel,
@@ -54,7 +54,7 @@ overall user experience. In some situations, like on smaller screen devices or b
 scrolling well, the feature degrades to a static image in the header and the rest of the page features a grainy,
 sandy-looking background.
 
-<h4>jQuery Plugins</h4>
+<h4 class="mt-5 mb-3">jQuery Plugins</h4>
 
 One of the other subtle page details is found in the navigation menu&mdash;as the user scrolls from one section of the
 page to the next, the styling of the menu items change to help the user keep track of where they are on the page. This
@@ -70,7 +70,7 @@ called <a href="https://github.com/n33/jquery.poptrox" target="_blank" title="Vi
 display gallery images. As with the other jQuery plugins, Poptrox is super lightweight, easily customized and functions
 well in all browsers and on all screen sizes.
 
-<h4>Outcome</h4>
+<h4 class="mt-5 mb-3">Outcome</h4>
 
 Tony and team at AJ Originals were very impressed with the re-design. We're now in the process of collecting more
 product shots to better showcase all the wonderful work they do. We've also begun to expand AJ Originals' web presence

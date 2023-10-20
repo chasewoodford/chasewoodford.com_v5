@@ -22,7 +22,7 @@ socialization&mdash;the list of features goes on and on. Building a web applicat
 is no easy feat, and neither is designing all of its complex features and functionality in an intuitive and intelligent
 way.
 
-<h4>Bootstrap, Sass, jQuery</h4>
+<h4 class="mt-5 mb-3">Bootstrap, Sass, jQuery</h4>
 
 Reveal's front-end is built on the <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap</a> framework. All
 CSS is written in <a href="http://sass-lang.com/" target="_blank">Sass</a>. The platform also relies heavily on
@@ -45,7 +45,7 @@ to build the platform. But this continues to be one of the biggest rewards of th
 privilege of working with the newest technologies in a production environment, the experience of integrating them with
 such a large web application and the reward of seeing enhanced performance and user experiences.
 
-<h4>Responsive Design</h4>
+<h4 class="mt-5 mb-3">Responsive Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4" src="highlight-revealmr-002.png" alt="Responsive design highlight"></div>
 
@@ -58,7 +58,7 @@ accessibility considerations. Reveal features a design where everything&mdash;fr
 user's dashboard to the context menus displayed when the user interacts with a document&mdash;is designed with the goal
 of achieving the best user experience possible, regardless of the device being used.
 
-<h4>Progressive Enhancement</h4>
+<h4 class="mt-5 mb-3">Progressive Enhancement</h4>
 
 In addition to responsive design, Reveal was designed using the principle of progressive enhancement, or with a baseline
 of usable functionality and increased richness of the user experience as support allows. The platform's baseline is
@@ -80,7 +80,7 @@ features state-of-the-art technology purchased by users limited to running the p
 technology is obvious. The good news is that Reveal has been designed with this issue in mind and uses progressive
 enhancement to provide each user with the best experience possible.
 
-<h4>Icons</h4>
+<h4 class="mt-5 mb-3">Icons</h4>
 
 Reveal features complimentary use of icons throughout the platform. They appear next to navigational links, document
 titles, on buttons and action items, and provide users with simple visual cues that make analyzing data easier.
@@ -106,7 +106,7 @@ requests. Beyond that, even in the short time between when we added file type ic
 year, image spriting fell out of favor as the standard practice due to the rise of retina displays and the various sized
 devices that required more flexible images&mdash;a requirement met most efficiently with SVG images.
 
-<h4>Just-in-time Education</h4>
+<h4 class="mt-5 mb-3">Just-in-time Education</h4>
 
 We use <a href="http://www.marketo.com/" target="_blank">Marketo</a> as our primary vehicle for keeping users informed
 on platform updates. However, we realize not everyone reads these e-mails. Likewise, some features cannot adequately be
@@ -130,7 +130,7 @@ instructions needed to complete micro-tasks when the user is most likely to need
 introduction of new features up in this way allows us to only display the instructions relevant to users who have access
 to them. (Not all Reveal users get access to all new features.)
 
-<h4>Theming</h4>
+<h4 class="mt-5 mb-3">Theming</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-revealmr-006.png" alt="Theming overview"></div>
 

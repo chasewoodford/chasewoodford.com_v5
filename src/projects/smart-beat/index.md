@@ -35,7 +35,7 @@ PHCG group, and how quickly and easily we were all able to come together and bui
 bunch of new friends, learned a lot about Verilogue’s sister agencies and had a blast hacking the night away on our
 Smart Beat app.
 
-<h4>The Idea</h4>
+<h4 class="mt-5 mb-3">The Idea</h4>
 
 We brainstormed
 a <a href="/resources/documents/Health%20Hack%20Ideas.pdf" title="Idea brainstorm for HealthHack">
@@ -44,7 +44,7 @@ for development, we opted for an idea that would create a more positive patient 
 specifically for stroke patients. We wanted to focus on a singular disease state and micro-interactions within that
 patient journey that were critical to early detection of and quick recovery from ischemic strokes.
 
-<h4>The App</h4>
+<h4 class="mt-5 mb-3">The App</h4>
 
 On initial load, the user is walked through a profile configuration flow. During this flow, the user authorizes
 HealthKit, and if data is available, it is used to help populate data fields for the profile set up. The user is then
@@ -56,7 +56,7 @@ After setting up a profile and answering risk factor questions, the user lands o
 displays current stroke risk status along with links to mission-critical information. The home screen also has a menu
 button on the top left of the screen that provides access to more app features.
 
-<h4>HealthKit Integration</h4>
+<h4 class="mt-5 mb-3">HealthKit Integration</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-smartBeat-005.png" alt="Team Smart Beat coding through the night"></div>
 
@@ -69,7 +69,7 @@ HealthManager.swift</a>
 and <a href="https://github.com/chasewoodford/StrokeApp/blob/master/StrokeApp/OnboardTwoViewController.swift" title="OnboardTwoViewController.swift">
 OnboardTwoViewController.swift</a> files.
 
-<h4>// TODO</h4>
+<h4 class="mt-5 mb-3">// TODO</h4>
 
 In the 24 hours we had to develop a working prototype, we were able to build out most of what we called the on-boarding
 flow, most of the home screen view functionality and placeholders for most other views.
@@ -87,7 +87,7 @@ and recovery. We talked about using the iPhone camera as a means for measuring h
 lens; using the camera to take selfies and check for facial abnormalities; using voice recordings to detect slurred
 speech; using the accelerometer to measure steadiness in the hands and ability to raise arms.
 
-<h4>The Design</h4>
+<h4 class="mt-5 mb-3">The Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4" src="highlight-smartBeat-002.png" alt="Smart Beat app comps"></div>
 
@@ -103,7 +103,7 @@ following the direction led by the wireframes built by the UX guy, integrating t
 The end result was a design that I thought was very aesthetically pleasing, simple and suitable for the likely
 demographic of our user base.
 
-<h4>Outcome</h4>
+<h4 class="mt-5 mb-3">Outcome</h4>
 
 Unfortunately, Smart Beat didn’t win the competition. I still think it is a great idea and our execution of bringing it
 to life was pretty solid. But we were up against a bunch of other really great ideas, too. Though our app met all
@@ -117,7 +117,7 @@ treatment for ischemic strokes. We're hopeful that the next time they connect to
 its way into the conversation. Even though we didn't win the hackathon, the idea may still have legs and someday see the
 light of day.
 
-<h4>Links</h4>
+<h4 class="mt-5 mb-3">Links</h4>
 
 <ul>
     <li>Event Announcement: <a href="/resources/documents/PHCG_Health_Hack.pdf" title="PHCG HealthHack Announcement">PHCG HealthHack Announcement</a></li>
@@ -125,7 +125,7 @@ light of day.
     <li>GitHub Repository: <a href="https://github.com/chasewoodford/StrokeApp" title="Smart Beat code on GitHub">https://github.com/chasewoodford/StrokeApp</a></li>
 </ul>
 
-<h4>Special Thanks</h4>
+<h4 class="mt-5 mb-3">Special Thanks</h4>
 
 A very special thank you to all the people who made this event possible and my super talented teammates!
 

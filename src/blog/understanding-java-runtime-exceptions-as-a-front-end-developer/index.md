@@ -15,7 +15,7 @@ I've only recently begun to work more on the back-end. The following may be some
 description of Java runtime exceptions from a front-end developer's perspective. I welcome all corrections and
 critiques.
 
-<h4>Understanding What Runtime Exceptions Are</h4>
+<h4 class="mt-5 mb-3">Understanding What Runtime Exceptions Are</h4>
 
 First, it's important to understand what a Java runtime exception is. A runtime exception is an error that occurs at
 runtime, or while it's in use. A runtime exception is an unchecked exception. (Exceptions in Java can be categorized
@@ -35,7 +35,7 @@ an example of what an exception email looks like coming from an enterprise web a
 trying to read it. The point is it's really, really long and looks really, really confusing to someone who doesn't work 
 on the back-end.)
 
-<h4>How to Read Runtime Exceptions</h4>
+<h4 class="mt-5 mb-3">How to Read Runtime Exceptions</h4>
 
 We'll take a closer look at that email later. First, let's dissect a simpler example. The following Java code throws a
 runtime error called a <code>NullPointerException</code>.

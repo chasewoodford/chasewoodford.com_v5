@@ -15,7 +15,7 @@ feel. One challenge that presented itself while integrating Google Charts with t
 the colors in sync between the two systems. In this post, I'll cover how I worked Bootstrap 4 theme colors into Google
 Charts via JavaScript to create integrated-looking data visualizations.
 
-<h4>Setting the Stage</h4>
+<h4 class="mt-5 mb-3">Setting the Stage</h4>
 
 Admittedly, I'm a Bootstrap fan boy. I started with Bootstrap 3 and have followed development of Bootstrap 4 from its
 inception. I'm active on <a href="https://getbootstrap.slack.com/" target="_blank" rel="noopener">Bootstrap's Slack
@@ -27,7 +27,7 @@ a Google Charts expert. I work with it because it's the library chosen by our ba
 all this in mind, the following should be taken with a grain of salt. And keep in mind, this is but one way out of many
 to achieve the desired result.
 
-<h4>Exploration</h4>
+<h4 class="mt-5 mb-3">Exploration</h4>
 
 Looking at the <a href="https://github.com/twbs/bootstrap/blob/v4-dev/scss/_root.scss" target="_blank" rel="noopener">_
 root.scss partial in Bootstrap's scss directory</a>, we find color, theme color, breakpoint and font variables added to
@@ -112,7 +112,7 @@ function drawChart() {
 
 	var options = {
 		width: $(window).width(),
-                height: $(window).height(),
+        height: $(window).height(),
 		title: "Rick Astley Would Never",
 		titleTextStyle: {
 			color: item1,
@@ -144,7 +144,7 @@ This example draws a donut chart. <a href="https://codepen.io/chasewoodford/pen/
 See a working demo of this code on CodePen</a>. The parts of the JavaScript we're most interested in are the <code>
 style</code> and <code>item</code> variables and the <code>slices</code> property of the <code>options</code> object.
 
-<h4>Solution</h4>
+<h4 class="mt-5 mb-3">Solution</h4>
 
 We have our Bootstrap theme colors stored in custom properties on the <code>:root</code> pseudo element in our CSS. We
 know we can color the slices of our donut chart by specifying a color for each slice in the <code>slices</code> property
@@ -175,7 +175,7 @@ JavaScript is that if you change the color values of your Bootstrap theme, those
 after you recompile your CSS without having to edit any of the JavaScript code (assuming only the values change, not the
 property names). In this way we're dynamically translating Bootstrap theme colors from our stylesheet to our JavaScript.
 
-<h4>In Conclusion</h4>
+<h4 class="mt-5 mb-3">In Conclusion</h4>
 
 Integrating third party libraries and frameworks into your web application's front end can be a tough task to
 accomplish. Getting code that you didn't write running is a difficult task alone. But then, to integrate seemlessly, it

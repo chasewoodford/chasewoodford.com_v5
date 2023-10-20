@@ -38,7 +38,7 @@ completing hundreds of minutes of work every day. All are highly skilled and hig
 
 Needless to say, every LogueWorks design decision has significant impact and requires meticulous consideration.
 
-<h4>Amazon Web Services</h4>
+<h4 class="mt-5 mb-3">Amazon Web Services</h4>
 
 With LogueWorks, we went all in with Amazon Web Services. We have EC2 instances running in multiple regions, globally
 distributed content via CloudFront, RDS MySQL databases, etc. Not only has going all in with AWS saved us a ton of money
@@ -46,7 +46,7 @@ on operational costs, it also provided multiple extra layers of security, as wel
 with hundreds of new services a year, too, which means the technology powering LogueWorks will continue to be
 state-of-the-art.
 
-<h4>Google Charts & DataTables</h4>
+<h4 class="mt-5 mb-3">Google Charts & DataTables</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-001.png" alt="Google Charts highlight"></div>
 
@@ -61,7 +61,7 @@ simple jQuery table plugin. Our experience using DataTables in other projects ha
 Familiarity with the plugin made it an easy add to LogueWorks. It's also a lightweight plugin, easily customizable and
 highly flexible.
 
-<h4>Plucked Audio Editor</h4>
+<h4 class="mt-5 mb-3">Plucked Audio Editor</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-002.png" alt="Plucked highlight"></div>
 
@@ -85,7 +85,7 @@ user. We also had to design the editor so that the interface felt comfortable to
 other audio editing software, while at the same time was easy enough to use for someone being introduced to audio
 editing for the first time. All things considered, the LogueWorks in-browser audio editor has been a huge success.
 
-<h4>Public Site</h4>
+<h4 class="mt-5 mb-3">Public Site</h4>
 
 The public-facing site is an adaptation of
 the <a href="http://themeisle.com/themes/zerif-lite/" title="View Zerif Responsive One Page Theme from ThemeIsle">Zerif
@@ -107,7 +107,7 @@ rotating background images, <a href="http://fittextjs.com/" title="View the FitT
 device-agnostic text rendering, and <a href="http://mynameismatthieu.com/WOW/" title="View the Wow.js homepage">
 Wow.js</a> for animating the content we wanted to draw visitors' attention to.
 
-<h4>Admin Dashboard</h4>
+<h4 class="mt-5 mb-3">Admin Dashboard</h4>
 
 The Admin portal is basically a huge data dump of all the LogueWorks client and vendor activity. The challenge with this
 part of application is making sure all critical data bubbles to the top while making even the deepest buried data easily
@@ -119,7 +119,7 @@ The Dashboard is divided into three sections: vendor activity on the left, clien
 action-required tasks on the right. Data visualizations are included to give an at-a-glance view into volume levels and
 trends. Notice all the links. You can click on just about anything and quickly dig deeper into specific data sets.
 
-<h4>Search Pages</h4>
+<h4 class="mt-5 mb-3">Search Pages</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-004.png" alt="Search Page highlight"></div>
 
@@ -130,7 +130,7 @@ Note also the breadcrumbs at the top of the page, which come in extremely helpfu
 These help users keep track of where they are and allow for easy navigation back through layers of data. Breadcrumbs are
 featured on all pages in LogueWorks, including on Vendor and Client portal pages, too.
 
-<h4>Tier Rank Design Element</h4>
+<h4 class="mt-5 mb-3">Tier Rank Design Element</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-005.png" alt="Tier Rank display highlight"></div>
 
@@ -141,7 +141,7 @@ CSS. <a href="http://codepen.io/chasewoodford/pen/uBiIr" title="View the Tier Ra
 it out on CodePen</a>. Tier Ranks are used all over the place, on both the Admin and Vendor portals, serving as constant
 reminders of the three tenets of LogueWorks: quality, speed and cost.
 
-<h4>Transcript Replacements</h4>
+<h4 class="mt-5 mb-3">Transcript Replacements</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-006.png" alt="Transcript Replacement highlight"></div>
 
@@ -152,7 +152,7 @@ for replacement rules, which we call Gold Standards. Additionally, we maintain m
 rule set that runs on all transcripts, as well as language-specific rules for each language supported in
 LogueWorks&mdash;and Gold Standard test suites for each rule set.
 
-<h4>Vendor Registration Process </h4>
+<h4 class="mt-5 mb-3">Vendor Registration Process </h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-007.png" alt="Vendor registration process highlight"></div>
 
@@ -162,7 +162,7 @@ possible, given the amount of explanation required due to the fact that LogueWor
 transcription/translation portals users have experience with. All design elements featured in the registration flow were
 built with pure CSS, from the progress bar at the top of the page to the checkbox toggles found on form elements.
 
-<h4>Vendor Dashboard</h4>
+<h4 class="mt-5 mb-3">Vendor Dashboard</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-008.png" alt="Vendor Dashboard highlight"></div>
 
@@ -171,7 +171,7 @@ designed to enable users to complete tasks as quickly as possible, with little t
 earnings to encourage continued productivity (via Google Charts), a section for critical messages, which is often empty,
 and a listing of jobs along with some metadata.
 
-<h4>Transcript Maintenance Interface</h4>
+<h4 class="mt-5 mb-3">Transcript Maintenance Interface</h4>
 
 The Transcript Maintenance Interface is powered
 by <a href="http://handsontable.com/" title="View the Handson Table homepage">Handson Table</a>, a data grid component
@@ -195,7 +195,7 @@ Note also on this page an example of the error messaging common throughout all L
 as the Notes feature (on the right) that provides our Quality Assurance (QA) team a means of communicating errors and
 issues back to typists.
 
-<h4>QA Reports</h4>
+<h4 class="mt-5 mb-3">QA Reports</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-010.png" alt="QA Report highlight"></div>
 
@@ -205,7 +205,7 @@ each transcript version, saved in LogueWorks. The Transcript Diff Report borrows
 common to most programming software, with color-coded lines signifying changes (blue), additions (green) and deletions (
 red).
 
-<h4>Contract Slider</h4>
+<h4 class="mt-5 mb-3">Contract Slider</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-011.png" alt="Contract Slider highlight"></div>
 
@@ -216,7 +216,7 @@ preferred method of adjusting their rate is&mdash;via dragging the slider's hand
 recommended rate, or inputting an exact rate in the input field&mdash;all data on the page adjusts in a synchronous
 fashion.
 
-<h4>Non-Responsive Design</h4>
+<h4 class="mt-5 mb-3">Non-Responsive Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-logueworks-012.png" alt="Mobile display highlight"></div>
 
@@ -229,7 +229,7 @@ that make working from mobile devices virtually impossible. This design decision
 design trends, but we believe is critical to LogueWorks business goals and worth mentioning as it adds an extra layer of
 complexity to every design decision.
 
-<h4>Roadmap</h4>
+<h4 class="mt-5 mb-3">Roadmap</h4>
 
 LogueWorks 1.0 was released in August 2013. In the 24 months between then and this writing, there's been 12 major
 releases, 23 minor releases and at least one project update released each month. For a team of three developers, that's

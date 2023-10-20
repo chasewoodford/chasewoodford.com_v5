@@ -27,7 +27,7 @@ website design affects client empowerment and confidence.
 There is still a lot we want to do with this site and a lot we can do better, too. But our initial goal was just to get
 her out there as quickly as possible and, as developments offline required, build on the site as needed.
 
-<h4>GoDaddy Website Builder</h4>
+<h4 class="mt-5 mb-3">GoDaddy Website Builder</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-daraWarren-001.png" alt="GoDaddy website builder"></div>
 
@@ -62,7 +62,7 @@ be enabled or disabled, but not customized and was only slightly editable. Meani
 your page in either a poorly conceived, mistmatching design loosely optimized for mobile devices or as it would display
 in a desktop browser with no optimization for mobile at all. We opted for the prior.
 
-<h4>Web Fonts & Theming</h4>
+<h4 class="mt-5 mb-3">Web Fonts & Theming</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-daraWarren-002.png" alt="Custom web fonts"></div>
 

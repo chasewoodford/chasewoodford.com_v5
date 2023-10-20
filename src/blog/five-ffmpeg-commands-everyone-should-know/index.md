@@ -38,7 +38,7 @@ The commands in this article assume that FFmpeg has already been added to your
 path (<a href="http://www.wikihow.com/Install-FFmpeg-on-Windows" target="_blank" rel="noopener">learn how to do that
 here</a>). They also assume that your working directory is the one in which all of the files you want to edit reside.
 
-<h4>Ripping Audio From Multiple Videos</h4>
+<h4 class="mt-5 mb-3">Ripping Audio From Multiple Videos</h4>
 
 <pre class="rounded-4 mb-3"><code class="language-java">$ for i in *.wmv; do f=${i%%.*}; ffmpeg -i ${f}.wmv -qscale 0 -vn ${f}.mp3; done</code></pre>
 
@@ -56,7 +56,7 @@ transcribed. Sure, we could send these huge video files out for transcription, b
 wasted uploading and downloading files. In most cases, for transcription, the video is not necessary. So using the above
 command to rip the audio from videos as a batch ultimately saves time on the back-end.
 
-<h4>Trimming Video Files with No Re-rendering</h4>
+<h4 class="mt-5 mb-3">Trimming Video Files with No Re-rendering</h4>
 
 <pre class="rounded-4 mb-3"><code class="language-java">$ ffmpeg.exe -i [INPUT] -acodec copy -vcodec copy -ss HH:MM:SS -t HH:MM:SS [OUTPUT]</code></pre>
 
@@ -78,7 +78,7 @@ traditional video editing software, you'd have to load the video file, delete th
 re-encode the video, re-open the original video file, delete the unwanted parts of the second clip, re-render the video,
 so on and so forth. If time is money, this command could be your nest egg.
 
-<h4>Converting Multiple WAV Files to MP3</h4>
+<h4 class="mt-5 mb-3">Converting Multiple WAV Files to MP3</h4>
 
 <pre class="rounded-4 mb-3"><code class="language-java">$ for i in *.wav; do ffmpeg -i ${i} -qscale 0 ${i}.mp3; done</code></pre>
 
@@ -90,7 +90,7 @@ editing process. And some audio editing programs do a poor job of encoding audio
 do or it is done with poor accuracy. Sometimes it just makes more sense to save out all of your audio in WAV format and
 use the above command to convert all of your files into MP3 in one batch after all editing is complete.
 
-<h4>Converting Multiple WMA Files to MP3</h4>
+<h4 class="mt-5 mb-3">Converting Multiple WMA Files to MP3</h4>
 
 <pre class="rounded-4 mb-3"><code class="language-java">$ for i in *.wma; do ffmpeg -i "$i" -acodec libmp3lame -ab 192k -ac 2 -ar 48000 "$(echo $f| head -c -5).mp3"; done</code></pre>
 
@@ -105,7 +105,7 @@ file name and meta data ("$(echo $f| head -c -5).mp3"). Also note, the MP3 Lame 
 included in FFmpeg. To take advantage of the Lame library you need to compile FFmpeg from source with the library
 included.
 
-<h4>Muxing Audio with Video</h4>
+<h4 class="mt-5 mb-3">Muxing Audio with Video</h4>
 
 <pre class="rounded-4 mb-3"><code class="language-java">$ ffmpeg -i [AUDIO INPUT] -i [VIDEO INPUT] -acodec copy -vcodec copy -map 0:0 -map 1:0 [VIDEO OUTPUT]</code></pre>
 

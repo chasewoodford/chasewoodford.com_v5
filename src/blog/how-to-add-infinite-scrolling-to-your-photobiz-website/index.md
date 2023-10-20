@@ -20,7 +20,7 @@ of infinite scrolling in action.</a> Infinite scrolling is a great technique to 
 browsing a lot of images quick, easy and intuitive, especially if a lot of the people visiting your site are doing so
 from mobile or touch-screen devices.
 
-<h4>Exploration</h4>
+<h4 class="mt-5 mb-3">Exploration</h4>
 
 When you create a page in PhotoBiz, you use a WYSIWYG (what you see is what you get, pronounced wiz-ee-wig) editor to
 drag and drop elements like a title, a button or an image onto a page. After placing an element on a page, you can
@@ -54,7 +54,7 @@ So we have our Portfolio page. It's built using an Images element. It's composed
 the Pinboard layout with a Load More link. We also know that PhotoBiz is packaging up our CSS and JS nicely so that the
 site runs quickly, and that we have jQuery at our disposal. With our exploration complete, let's begin implementation.
 
-<h4>Solution</h4>
+<h4 class="mt-5 mb-3">Solution</h4>
 
 Our goal is to make more images load onto the Portfolio page seamlessly as the user scrolls down the page, eliminating
 the need for the user to click the Load More link. To achieve this goal, we really only need to do one thing:
@@ -119,7 +119,7 @@ Now, when we save and re-load our Portfolio page, we should no longer see a Load
 Instead, as we scroll down the page, new images should automatically load onto the page, creating an infinite scrolling
 effect.
 
-<h4>In Conclusion</h4>
+<h4 class="mt-5 mb-3">In Conclusion</h4>
 Adding infinite scrolling to a page full of images can really add a nice, modern touch to the user experience. The user
 can just keep scrolling and scrolling and scrolling to their heart's content with virtually no interruption. It can also
 be a plus for site performance—instead of loading a ton of images at once, images are loaded on demand. And though

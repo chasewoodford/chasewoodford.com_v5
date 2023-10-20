@@ -25,14 +25,14 @@ audio sound more rich.
 The difference between Constant Bitrate (CBR) and Variable Bitrate (VBR) is pretty straight forward. However, there are
 considerations to be made when deciding to use one over the other.
 
-<h4>What is Constant Bitrate (CBR)?</h4>
+<h4 class="mt-5 mb-3">What is Constant Bitrate (CBR)?</h4>
 
 CBR encoding keeps the rate of bits constant throughout an audio file's duration. Typical values used in MP3s, for
 instance, include 128 (CD quality), 256 and 320 kbps (highest possible per the MP3 standard). The advantage to using CBR
 encoding is that the data can be processed faster. A disadvantage is that CBR encoded audio files are poorly optimized
 when it comes to quality versus file size.
 
-<h4>What is Variable Bitrate (VBR)?</h4>
+<h4 class="mt-5 mb-3">What is Variable Bitrate (VBR)?</h4>
 
 VBR encoding, on the other hand, allocates more bits to complex segments of an audio file and less bits to simpler
 segments, meaning a VBR encoded audio file has a bitrate that varies throughout the audio file's duration. A VBR encoded
@@ -42,12 +42,12 @@ It typically takes longer to encode and decode variable bitrate audio files beca
 also find that some devices and software, typically older, do not support VBR encoded audio files as well as CBR encoded
 audio files.
 
-<h4>TL;DR</h4>
+<h4 class="mt-5 mb-3">TL;DR</h4>
 
 Between the two types of encoding, Constant Bitrate (CBR) and Variable Bitrate (VBR), VBR is preferred in most cases
 because it encodes data more accurately (better quality) using fewer bits (smaller file size).
 
-<h4>Yeah, but...</h4>
+<h4 class="mt-5 mb-3">Yeah, but...</h4>
 
 I once opened an audio file with iTunes, years ago, and noticed the duration wasn't displaying correctly. The audio file
 was a VBR encoded file. And iTunes was, well, iTunes. But I soon realized it wasn't just iTunes that had this issue. A

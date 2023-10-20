@@ -26,7 +26,7 @@ great guy to work with in the past. So I was all in on the project.
 Our goal was to create a theme for the show that would set the tone and mood for the program, introduce the concept and
 key design elements and showcase businesses and locations of pilot episode.
 
-<h4>The Mix</h4>
+<h4 class="mt-5 mb-3">The Mix</h4>
 
 We started
 by <a href="/resources/documents/townTrekkers-storyBoard.pdf" title="View the storyboard">
@@ -48,7 +48,7 @@ introductory narration audio, the final composition including lyrics and the ins
 The audio was then brought into Premiere Pro, along with all the transition compositions created in After Effects,
 where the final video was assembled and rendered.
 
-<h4>After Effects Transitions</h4>
+<h4 class="mt-5 mb-3">After Effects Transitions</h4>
 
 Most of the cuts in the video are straight, but we did want to give it some flare with unique transitions. We found some
 great artwork created by <a href="http://videohive.net/user/Bifurk" target="_blank">Bifurk</a> on
@@ -62,7 +62,7 @@ thirds, other overlays and transitions that pair nicely with what we were using 
 carry those design elements through the entire episode. Having a full package of easily customizable, yet familiar
 feeling compositions could really pull the entire pilot episode together.
 
-<h4>Outcome</h4>
+<h4 class="mt-5 mb-3">Outcome</h4>
 
 In about a month we were able to go from initial brainstorm to final render, all the while keeping to a budget that
 wouldn't break the bank for a proof of concept. Having been pleased with the outcome of this project, he also enlisted

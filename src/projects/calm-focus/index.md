@@ -20,7 +20,7 @@ version of the site functioned, but lacked visual appeal and was not optimized f
 Gary asked me to help him re-design calmfocus.com in a way that was more "enticing" to visitors&mdash;he wanted more
 visuals, a non-linear flow but one with less cognitive overhead, better SEO and, of course, a higher conversion rate.
 
-<h4>Research & Design</h4>
+<h4 class="mt-5 mb-3">Research & Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-calmFocus-001.png" alt="Old version of calmfocus.com"></div>
 
@@ -54,7 +54,7 @@ page and the contact information at the top of the page. But we also added a cou
 search functionality and a social sharing feature. The content of the site remained relatively unchanged aside from some
 search engine optimizations.
 
-<h4>Database Migration</h4>
+<h4 class="mt-5 mb-3">Database Migration</h4>
 
 The biggest challenge of this project was migrating the database. The old version of the site was built using the PHP
 template engine <a href="http://www.smarty.net/" target="_blank">Smarty</a>. But the framework had not been maintained
@@ -73,7 +73,7 @@ certainly saved time over manually re-entering all of the data into the new data
 consumption of development time, which not only took away from time I could devote to improving the site's design, but
 also pushed out the project's completion date.
 
-<h4>WordPress</h4>
+<h4 class="mt-5 mb-3">WordPress</h4>
 
 The site displays content in a number of unique ways. The homepage features seven articles, which are loaded at random
 on each page load using the <code>'orderby' => 'rand'</code> WordPress feature. We decided to load
@@ -109,7 +109,7 @@ they finish reading a post.
 Using WordPress allows for powerful content manipulation and flexible content layout, while requiring very little code
 editing from one page to the next, minimizing the time required to go from design to build.
 
-<h4>Performance Monitoring & Optimization</h4>
+<h4 class="mt-5 mb-3">Performance Monitoring & Optimization</h4>
 
 Due to the amount of content and number of queries being run on each page of the calmfocus.com site, we wanted to make
 sure we were conscious of the site's page speed performance from the outset of the project. Additionally, because this

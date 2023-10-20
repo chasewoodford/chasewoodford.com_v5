@@ -13,7 +13,7 @@ website is backed by a huge database of Philly sports' events, trivia and factoi
 Philly sports figure and athlete, past and present, as well as interactive games and activities where users can score
 points and battle other Philly sports fans for free prizes.
 
-<h4>Ideation and Iteration</h4>
+<h4 class="mt-5 mb-3">Ideation and Iteration</h4>
 
 <div class="text-center"><img class="mw-100 mb-4" src="highlight-phillySportPast-002.png" alt="PhillySportPast Logo Ideas"></div>
 
@@ -39,7 +39,7 @@ the font of the logo to have a Philadelphian feel to it. Lastly, the logo needed
 range of sizes, everything from a 16px icon to a 160px Facebook profile picture to a +30" print for merchandise, and as
 mentioned above, this meant with and without the brand's name in text.
 
-<h4>Vectorizing</h4>
+<h4 class="mt-5 mb-3">Vectorizing</h4>
 
 Vectorizing is the process of converting a raster image into an image represented by vectors derived from mathematical
 expressions. This allows for easy re-sizing of art without sacrifice of quality.

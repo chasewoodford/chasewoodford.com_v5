@@ -30,7 +30,7 @@ end&mdash;after re-creating a corrupted database, nearly losing several domains 
 with hosting companies over lost login credentials and numerous other minor obstacles&mdash;the site was re-born with a
 refreshed look and, most importantly, updated and accessible content.
 
-<h4>Content Strategy</h4>
+<h4 class="mt-5 mb-3">Content Strategy</h4>
 
 <div class="text-center"><img class="mw-100 mb-4" src="highlight-garyAmesNet-001.png" alt="Responsive design highlight"></div>
 
@@ -46,7 +46,7 @@ the site's menu navigation chapter numbers, an idea re-enforced by large headers
 initial landing page for the site Chapter One's index page, as opposed to the About page; and we added smart buttons to
 the bottom of each post to guide the user on to the next lesson.
 
-<h4>Menu Navigation</h4>
+<h4 class="mt-5 mb-3">Menu Navigation</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-garyAmesNet-002.png" alt="Menu highlight"></div>
 
@@ -59,7 +59,7 @@ accessible only when needed on smaller screen displays, to help maintain the sit
 devices. On smaller screen devices, clicking on the Menu hyperlink slides the menu navigation in from the left where
 it's hidden off-screen until needed.
 
-<h4>Chapter Numbers</h4>
+<h4 class="mt-5 mb-3">Chapter Numbers</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-garyAmesNet-003.png" alt="Chapter header highlight"></div>
 

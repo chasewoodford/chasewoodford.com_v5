@@ -19,7 +19,7 @@ event's first year, too, I was aware of the issues both internal and external us
 determined to improve the experience in 2012, knowing it would lead to a higher conversion rate and less project
 management.
 
-<h4>PayPal Integration</h4>
+<h4 class="mt-5 mb-3">PayPal Integration</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-2012GolfClassic-003.png" alt="PayPal Intergration Highlight"></div>
 
@@ -43,7 +43,7 @@ and could easily tailor custom messages to a more targeted group of participants
 As is the case with any good design, these improvements went mostly unnoticed by the event's participants. But that
 ultimately was the goal.
 
-<h4>Parallax Scrolling</h4>
+<h4 class="mt-5 mb-3">Parallax Scrolling</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-2012GolfClassic-001.png" alt="Parallax Scrolling Highlight"></div>
 
@@ -54,7 +54,7 @@ winning prizes and having a great time. We wanted to display as many of these as
 real estate. The parallax scrolling effect not only allowed us to showcase all the fun of the previous year's event, but
 it also just looked cool and was a great way to break up content on the site.
 
-<h4>CSS Text-Shadows, Transitions and More</h4>
+<h4 class="mt-5 mb-3">CSS Text-Shadows, Transitions and More</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-2012GolfClassic-002.png" alt="CSS3 Highlight"></div>
 
@@ -67,7 +67,7 @@ text information was treated with a smooth <code>transition</code> effect, where
 font colors would change and text would move or become highlighted on hover. These additions, though not critical to the
 overall design, did add to the enhanced experience for users who visited the site using modern browsers.
 
-<h4>Adaptive Web Design</h4>
+<h4 class="mt-5 mb-3">Adaptive Web Design</h4>
 
 <div class="text-center"><img class="mw-100 mb-4 shadow border" src="highlight-2012GolfClassic-004.png" alt="Adaptive Web Design Highlight"></div>
 

@@ -21,7 +21,7 @@ software you have can open the file, but you can open other files with the same 
 
 Knowing the difference between audio codecs and containers may help you resolve your issues.
 
-<h4>What is an audio codec?</h4>
+<h4 class="mt-5 mb-3">What is an audio codec?</h4>
 
 An audio codec is a process by which an audio file is compressed and decompressed. A codec specifies how audio data
 should be encoded and decoded, which is what allows the data to be edited, saved, transferred and played on various
@@ -29,7 +29,7 @@ devices. Think of a codec as a key. When data is encoded, or changed from one fo
 the data into a pattern; when data is decoded, like when you play an audio file, a codec is used to unlock the data and
 describes the pattern in which it was stored so that it can be reconstituted.
 
-<h4>What is an audio container?</h4>
+<h4 class="mt-5 mb-3">What is an audio container?</h4>
 
 If a codec is a key that locks up data, a container is the box in which data is stored. A container can also be called a
 format. Whereas codecs are more mysterious in their presentation, a container can be recognized more easily by looking
@@ -38,7 +38,7 @@ curious, the "MPEG" stands for Motion Picture Experts Group, the organization th
 refers to one of the sections of the standard that specifically covers audio encoding. Check out <a href="#tidbits">more
 tidbits and talking points</a> at the bottom of this post!)
 
-<h4>TL;DR</h4>
+<h4 class="mt-5 mb-3">TL;DR</h4>
 
 There are two key points to take away from what we've covered so far.
 
@@ -50,7 +50,7 @@ Second, recognize that the issue is environment dependent. An audio file that wo
 PowerPoint 2010; an audio file that can be played on your Apple device may not play on your Windows device; an audio
 file that opens on your personal computer may not open on your work computer, even if you use the same software.
 
-<h4>So how do I resolve my issue?</h4>
+<h4 class="mt-5 mb-3">So how do I resolve my issue?</h4>
 
 For the technically inclined, the first step is to figure out what is the codec in question. I like to use
 the <a title="FFmpeg Website" href="https://ffmpeg.org/" target="_blank" rel="noopener">FFmpeg</a> command

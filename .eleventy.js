@@ -17,7 +17,7 @@ module.exports = (config) => {
 
 	config.setDataDeepMerge(true);
 
-	config.setTemplateFormats(["md", "njk", "png", "jpeg"]);
+	config.setTemplateFormats(["md", "njk", "png", "jpeg", "gif"]);
 
 	return {
 		dir: {
