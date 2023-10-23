@@ -87,7 +87,7 @@ rest of the details.
 Of course, this is all assuming you aren't working with a file that someone simply renamed from a WAV to a MP3. If
 that's the case, good luck, you've got a much bigger problem to deal with.
 
-<h4 id="tidbits">Tidbits and Talking Points</h4>
+<h4 id="tidbits" class="mt-5 mb-3">Tidbits and Talking Points</h4>
 
 Need a conversational icebreaker or something to wow the crowd? Try one of these.
 

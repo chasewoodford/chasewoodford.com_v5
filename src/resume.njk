@@ -3,26 +3,29 @@ title: Chase Woodford | Resume
 layout: layout.njk
 ---
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"
+        integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <div class="row">
     <div class="col-12 col-lg-10 mb-4 mx-auto">
         <div class="d-flex flex-row align-items-center border-bottom pb-1 mb-3">
             <h3 class="p-0 m-0 me-auto">Resume</h3>
-            {# TODO: implement using jsPDF // https://micropyramid.com/blog/export-html-web-page-to-pdf-using-jspdf/ #}
-            {# <button type="button" class="btn btn-primary btn-sm">Download PDF</button> #}
+             <button id="export" class="btn btn-primary btn-sm" type="button">Download PDF</button>
         </div>
         <div class="container p-2 p-lg-4">
-            <div id="resume" class="p-5 border shadow">
+            <div id="resume" class="p-3 p-md-4 p-xl-5 border shadow">
                 <div class="d-flex flex-column align-items-center container-contact">
-                    <div class="d-flex flex-column flex-md-row align-items-baseline fw-bold resume-name">
-                        <h1 class="h2 me-2 fw-bold resume-name">Chase Woodford</h1>
-                        <h2 class="h4 resume-title">/ designer / developer</h2>
+                    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-baseline mb-3 mb-md-0 fw-bold resume-name">
+                        <h1 class="h2 me-md-2 fw-bold resume-name">Chase Woodford</h1>
+                        <h2 class="h5 resume-title"><span class="d-none d-md-inline">/</span> designer / developer</h2>
                     </div>
-                    <div class="resume-sm small text-muted">
-                        <a href="https://www.chasewoodford.com" class="text-decoration-none text-muted">chasewoodford.com</a>
-                        <span class="mx-1">&bull;</span>
-                        <a href="https://github.com/chasewoodford" class="text-decoration-none text-muted">github.com/chasewoodford</a>
-                        <span class="mx-1">&bull;</span>
-                        <a href="https://twitter.com/chasewoodford" class="text-decoration-none text-muted">twitter.com/chasewoodford</a>
+                    <div class="d-flex flex-column flex-md-row align-items-center small text-muted resume-sm">
+                        <a href="https://www.chasewoodford.com" class="mb-2 mb-md-0 text-decoration-none text-muted">chasewoodford.com</a>
+                        <span class="d-none d-md-inline mx-1">&bull;</span>
+                        <a href="https://github.com/chasewoodford" class="mb-2 mb-md-0 text-decoration-none text-muted">github.com/chasewoodford</a>
+                        <span class="d-none d-md-inline mx-1">&bull;</span>
+                        <a href="https://x.com/chasewoodford" class="mb-2 mb-md-0 text-decoration-none text-muted">x.com/chasewoodford</a>
                     </div>
                 </div>
                 <div class="d-flex flex-column align-items-start container-summary my-5">
@@ -32,10 +35,10 @@ layout: layout.njk
                         graphic design, and audio/visual composition.
                     </p>
                 </div>
-                <div class="d-flex flex-column align-items-start container-employment mb-4">
+                <div class="d-flex flex-column align-items-start container-employment mb-4 html2pdf__page-break">
                     <div class="mb-2 resume-employment-company">
                         <span class="h3 me-1 fw-bold resume-section-header">Verilogue</span>
-                        <span class="h4 resume-section-title">/ employment</span>
+                        <span class="h5 resume-section-title">/ employment</span>
                     </div>
                     <div class="d-flex flex-row justify-content-between w-100 my-3">
                         <div class="small fw-bold resume-employment-type">
@@ -94,11 +97,11 @@ layout: layout.njk
                         </ul>
                     </div>
                 </div>
-                <div class="d-flex flex-row justify-content-between mb-4">
-                    <div class="col pe-5 container-skills">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-0 mb-lg-4">
+                    <div class="col pe-0 pe-lg-5 container-skills">
                         <div class="mb-2 container-header">
                              <span class="h3 me-1 fw-bold resume-section-header">Proficiencies</span>
-                            <span class="h4 resume-section-title">/ skills</span>
+                            <span class="h5 resume-section-title">/ skills</span>
                         </div>
                         <div class="resume-skills">
                             <ul class="text-muted">
@@ -120,10 +123,10 @@ layout: layout.njk
                             </ul>
                         </div>
                     </div>
-                    <div class="col pe-5 container-projects">
+                    <div class="col pe-0 pe-lg-5 container-projects">
                         <div class="mb-2 container-header">
                             <span class="h3 me-1 fw-bold resume-section-header">Recent Projects</span>
-                            <span class="h4 resume-section-title">/ experience</span>
+                            <span class="h5 resume-section-title">/ experience</span>
                         </div>
                         <div class="resume-projects">
                             <ul class="text-muted">
@@ -137,11 +140,11 @@ layout: layout.njk
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-row justify-content-between mb-4">
-                    <div class="col pe-5 container-education">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-4">
+                    <div class="col pe-0 pe-lg-5 container-education">
                         <div class="mb-2 container-header">
                             <span class="h3 me-1 fw-bold resume-section-header">Temple Univ.</span>
-                            <span class="h4 resume-section-title">/ education</span>
+                            <span class="h5 resume-section-title">/ education</span>
                         </div>
                         <div class="resume-education">
                             <ul class="text-muted">
@@ -151,7 +154,7 @@ layout: layout.njk
                             </ul>
                         </div>
                     </div>
-                    <div class="col pe-5 container-references">
+                    <div class="col pe-0 pe-lg-5 container-references">
                         <div class="mb-2 container-header">
                              <span class="h3 fw-bold resume-section-header">References</span>
                         </div>
@@ -169,3 +172,18 @@ layout: layout.njk
         </div>
     </div>
 </div>
+
+<script>
+    const exportBtn = document.getElementById('export'),
+        opt = {
+    	    filename: 'resume_cwoodford.pdf',
+	        image: { type: 'jpeg', quality: 1 },
+	        html2canvas: { scale: 2, dpi: 192, letterRendering: true },
+	        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+        }
+
+    exportBtn.addEventListener('click', () => {
+	    const resume = document.getElementById('resume');
+	    html2pdf(resume, opt);
+    });
+</script>
