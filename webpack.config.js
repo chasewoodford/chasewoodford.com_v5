@@ -1,10 +1,11 @@
-const miniCssExtractPlugin = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin  = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const path = require('path');
 
 module.exports = {
 	mode: 'development',
 	entry: './src/assets/js/main.js',
-	plugins: [new miniCssExtractPlugin()],
+	plugins: [new MiniCssExtractPlugin ()],
 	output: {
 		filename: 'main.js',
 		path: path.resolve(__dirname, 'dist')
@@ -15,7 +16,7 @@ module.exports = {
 				test: /\.(scss)$/,
 				use: [
 					{
-						loader: miniCssExtractPlugin.loader
+						loader: MiniCssExtractPlugin.loader
 					},
 					{
 						loader: 'css-loader'
@@ -41,5 +42,11 @@ module.exports = {
 				type: 'asset/resource',
 			},
 		]
-	}
+	},
+	optimization: {
+		minimize: true,
+		minimizer: [
+			new CssMinimizerPlugin(),
+		],
+	},
 }
