@@ -6,6 +6,7 @@ module.exports = (config) => {
 
 	config.addPassthroughCopy( "src/assets");
 	config.addPassthroughCopy( "src/resources");
+	config.addPassthroughCopy("src/playground/sidewalk");
 	config.addPassthroughCopy("src/playground/weight-tracker");
 
 	config.addPlugin(pluginDate);
