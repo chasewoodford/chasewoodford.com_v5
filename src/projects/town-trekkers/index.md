@@ -3,7 +3,7 @@ title: Town Trekkers
 layout: post.njk
 featuredImage: screenshot-townTrekkers.png
 featuredImageAlt: app icon
-date: 2015-01-01
+date: 2015-02-15
 tags: ["project"]
 projectDescription: Intro video for pitching a pilot episode of a local TV show.
 ---
