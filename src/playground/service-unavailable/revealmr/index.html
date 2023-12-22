@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reveal MR Downtime Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+    <meta name="theme-color" content="#0a7ab6">
+    <meta name="msapplication-TileColor" content="#0a7ab6">
+    <meta name="msapplication-config" content="/assets/documents/browserconfig.xml">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#0a7ab6">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <!--
+    An Adaptation of Lennart Hase's CSS3 animated weather icons
+    http://codepen.io/motorlatitude/pen/CyqDf
+
+    Inspired by Mark Geyer's [GIF] Weather at:
+    http://dribbble.com/shots/1389791--GIF-Weather
+    -->
+    <style>
+		body { margin: 0; padding: 0; background: #224472; }
+
+		.wrapper { width: 150px; height: 150px; position: absolute; top: 150px; left: calc(50% - 75px); }
+
+		.cloud { position: absolute; bottom: 70px; }
+
+		.cloud1 { position: absolute; bottom: 0; z-index: 5; }
+		.cloud1:before { content: ''; position: absolute; bottom: 0; left: 28px; width: 90px; height: 20px; background: #fff; }
+		.cloud1 ul { list-style: none; margin: 0; padding: 0; }
+		.cloud1 ul li { width: 50px; height: 50px; background: #fff; float: left; border-radius: 360px; }
+		.cloud1 ul li:nth-child(2) { width: 70px; height: 70px; background: #fff; float: left; border-radius: 360px; position: absolute; bottom: 18px; left: 25px; }
+		.cloud1 ul li:nth-child(3) { width: 60px; height: 60px; background: #fff; float: left; border-radius: 360px; position: absolute; bottom: 8px; left: 60px; }
+		.cloud1 ul li:last-child { width: 50px; height: 50px; background: #fff; float: left; border-radius: 360px; position: absolute; bottom: 0; left: 90px; }
+
+		.cloud_s { position: absolute; bottom: 45px; left: 345px; transform: scale(0.7, 0.7) matrix(-1, 0, 0, 1, 0, 0); z-index: 1; opacity: 1; animation: cloud_s 20s 0s linear infinite; }
+		.cloud_s .c_shadow { transform: scale(1.02, 1.02); }
+
+		.c_shadow { z-index: 4 !important; left: -5px; bottom: -3px !important; }
+		.c_shadow:before { background: #33495f !important; }
+		.c_shadow ul li { width: 60px !important; height: 60px !important; background: #33495f !important; float: left; position: absolute; bottom: -2px !important; border-radius: 360px; }
+		.c_shadow ul li:nth-child(2) { width: 80px !important; height: 80px !important; background: #33495f !important; float: left; border-radius: 360px; position: absolute; bottom: 16px !important; left: 25px !important; }
+		.c_shadow ul li:nth-child(3) { width: 70px !important; height: 70px !important; background: #33495f !important; float: left; border-radius: 360px; position: absolute; bottom: 6px !important; left: 60px !important; }
+		.c_shadow ul li:last-child { width: 60px !important; height: 60px !important; background: #33495f !important; float: left; border-radius: 360px; position: absolute; bottom: 0; left: 90px; }
+
+		.rain { position: absolute; bottom: 0; left: 25px; }
+		.rain ul { list-style: none; margin: 0; padding: 0; }
+		.rain ul li { float: left; position: absolute; bottom: 50px; left: 50px; margin-left: 20px; background: #6ab9e9; height: 40px; width: 10px; border-radius: 360px; transform: rotate(35deg); opacity: 0; }
+		.rain ul li:first-child { animation: raini 5s 0s linear infinite; }
+		.rain ul li:nth-child(2) { animation: rainii 5s 0.2s linear infinite; }
+		.rain ul li:last-child { animation: rainiii 5s 0.4s linear infinite; }
+
+		.sleet { position: absolute; bottom: 0; left: 25px; }
+		.sleet ul { list-style: none; margin: 0; padding: 0; }
+		.sleet ul li { float: left; position: absolute; bottom: 50px; left: 50px; margin-left: 20px; background: #fff; height: 40px; width: 10px; border-radius: 360px; transform: rotate(35deg); opacity: 0; }
+		.sleet ul li:first-child { animation: raini 5s 1s linear infinite; }
+		.sleet ul li:nth-child(2) { animation: rainii 5s 1.2s linear infinite; }
+		.sleet ul li:last-child { animation: rainiii 5s 1.4s linear infinite; }
+
+		.snow { position: absolute; bottom: 0; left: 25px; }
+		.snow ul { list-style: none; margin: 0; padding: 0; }
+		.snow ul li { float: left; position: absolute; bottom: 50px; left: 50px; margin-left: 20px; background: #F29B32; height: 40px; width: 10px; border-radius: 360px; transform: rotate(35deg); opacity: 0; }
+		.snow ul li:first-child { animation: raini 5s 2s linear infinite; }
+		.snow ul li:nth-child(2) { animation: rainii 5s 2.2s linear infinite; }
+		.snow ul li:last-child { animation: rainiii 5s 2.4s linear infinite; }
+
+		.text { position: relative; width: 100%; padding-top: 30px; z-index: 2; }
+		.text sup { font-size: 0.7em; }
+		.text ul { list-style: none; margin: 0; padding: 0; }
+		.text ul li { color: #F29B32; font-family: 'Fjalla One', sans-serif; font-weight: 800; font-size: 2em; text-align: center; }
+
+		@keyframes raini { 0%, 52% { opacity: 0; bottom: 100px; left: 60px; }
+			63% { opacity: 1; bottom: 15px; left: 50px; }
+			64%, 70% { opacity: 1; bottom: 25px; left: 52px; }
+			71% { opacity: 0; bottom: -15px; left: 6px; }
+			100% { opacity: 0; bottom: 20px; } }
+		@keyframes rainii { 0%, 52% { opacity: 0; bottom: 100px; left: 30px; }
+			63% { opacity: 1; bottom: 15px; left: 20px; }
+			64%, 70% { opacity: 1; bottom: 25px; left: 22px; }
+			71% { opacity: 0; bottom: -15px; left: -6px; }
+			100% { opacity: 0; bottom: 20px; } }
+		@keyframes rainiii { 0%, 52% { opacity: 0; bottom: 100px; left: 0; }
+			63% { opacity: 1; bottom: 15px; left: -10px; }
+			64%, 70% { opacity: 1; bottom: 25px; left: -8px; }
+			71% { opacity: 0; bottom: -15px; left: -28px; }
+			100% { opacity: 0; bottom: 20px; } }
+		@keyframes cloud_s { 0% { opacity: 0; right: -100px; }
+			10% { opacity: 0; }
+			20% { opacity: 1; }
+			80% { opacity: 1; }
+			90% { opacity: 0; }
+			100% { opacity: 0; left: -100px; } }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="cloud">
+        <div class="cloud1">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="cloud1 c_shadow">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="cloud_s">
+            <div class="cloud1">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="rain">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="sleet">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="snow">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<div class="text">
+    <ul>
+        <li>Sorry, Reveal<sup>MR</sup> is temporarily unavailable.</li>
+    </ul>
+</div>
+</body>
+</html>

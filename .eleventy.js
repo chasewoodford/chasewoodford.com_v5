@@ -6,7 +6,13 @@ module.exports = (config) => {
 
 	config.addPassthroughCopy( "src/assets");
 	config.addPassthroughCopy( "src/resources");
-	config.addPassthroughCopy("src/playground/sidewalk");
+
+	config.addPassthroughCopy("src/playground/service-unavailable/logueworks");
+	config.addPassthroughCopy("src/playground/service-unavailable/revealmr");
+	config.addPassthroughCopy("src/playground/service-unavailable/revealmr-dvd");
+	config.addPassthroughCopy("src/playground/service-unavailable/revealmr2");
+	config.addPassthroughCopy("src/playground/service-unavailable/sidewalk");
+
 	config.addPassthroughCopy("src/playground/weight-tracker");
 
 	config.addPlugin(pluginDate);

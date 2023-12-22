@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reveal MR 2 Downtime Page</title>
+
+    <meta name="theme-color" content="#0a7ab6">
+    <meta name="msapplication-TileColor" content="#0a7ab6">
+    <meta name="msapplication-config" content="/assets/documents/browserconfig.xml">
+
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#0a7ab6">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <style>
+	    @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
+	    @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+	    * {
+		    margin: 0 auto;
+		    padding: 0;
+		    text-align: center;
+	    }
+
+	    body {
+		    background-color: #fff;
+		    font-family: "Noto Sans", sans-serif;
+	    }
+
+	    .container-wrapper {
+		    padding: 2rem;
+		    overflow: hidden;
+	    }
+
+	    .container {
+		    display: flex;
+		    justify-content: center;
+		    flex-flow: column;
+		    padding: 3rem;
+	    }
+
+	    .swing div {
+		    border-radius: 50%;
+		    float: left;
+		    height: 1em;
+		    width: 1em;
+	    }
+
+	    .swing div:nth-of-type(1) {
+		    background: #385c78;
+	    }
+
+	    .swing div:nth-of-type(2) {
+		    background: rgba(56, 92, 120, 0.7);
+	    }
+
+	    .swing div:nth-of-type(3) {
+		    background: rgba(56, 92, 120, 0.4);
+	    }
+
+	    .shadow {
+		    clear: left;
+		    padding-top: 1.5em;
+	    }
+
+	    .shadow div {
+		    filter: blur(1px);
+		    float: left;
+		    width: 1em;
+		    height: 0.25em;
+		    border-radius: 50%;
+		    background: rgba(24, 39, 50, 0.1);
+	    }
+
+	    .shadow .shadow-l, .shadow .shadow-r {
+		    background: rgba(40, 65, 85, 0.1);
+	    }
+
+	    @-webkit-keyframes ball-l {
+		    0%, 50% {
+			    transform: rotate(0) translateX(0);
+		    }
+		    100% {
+			    transform: rotate(50deg) translateX(-2.5em);
+		    }
+	    }
+	    @keyframes ball-l {
+		    0%, 50% {
+			    transform: rotate(0) translateX(0);
+		    }
+		    100% {
+			    transform: rotate(50deg) translateX(-2.5em);
+		    }
+	    }
+	    @-webkit-keyframes ball-r {
+		    0% {
+			    transform: rotate(-50deg) translateX(2.5em);
+		    }
+		    50%, 100% {
+			    transform: rotate(0) translateX(0);
+		    }
+	    }
+	    @keyframes ball-r {
+		    0% {
+			    transform: rotate(-50deg) translateX(2.5em);
+		    }
+		    50%, 100% {
+			    transform: rotate(0) translateX(0);
+		    }
+	    }
+	    @-webkit-keyframes shadow-l-n {
+		    0%, 50% {
+			    opacity: 0.5;
+			    transform: translateX(0);
+		    }
+		    100% {
+			    opacity: 0.125;
+			    transform: translateX(-1.75em);
+		    }
+	    }
+	    @keyframes shadow-l-n {
+		    0%, 50% {
+			    opacity: 0.5;
+			    transform: translateX(0);
+		    }
+		    100% {
+			    opacity: 0.125;
+			    transform: translateX(-1.75em);
+		    }
+	    }
+	    @-webkit-keyframes shadow-r-n {
+		    0% {
+			    opacity: 0.125;
+			    transform: translateX(1.75em);
+		    }
+		    50%, 100% {
+			    opacity: 0.5;
+			    transform: translateX(0);
+		    }
+	    }
+	    @keyframes shadow-r-n {
+		    0% {
+			    opacity: 0.125;
+			    transform: translateX(1.75em);
+		    }
+		    50%, 100% {
+			    opacity: 0.5;
+			    transform: translateX(0);
+		    }
+	    }
+	    .swing-l {
+		    -webkit-animation: ball-l 0.425s ease-in-out infinite alternate;
+		    animation: ball-l 0.425s ease-in-out infinite alternate;
+	    }
+
+	    .swing-r {
+		    -webkit-animation: ball-r 0.425s ease-in-out infinite alternate;
+		    animation: ball-r 0.425s ease-in-out infinite alternate;
+	    }
+
+	    .shadow-l {
+		    -webkit-animation: shadow-l-n 0.425s ease-in-out infinite alternate;
+		    animation: shadow-l-n 0.425s ease-in-out infinite alternate;
+	    }
+
+	    .shadow-r {
+		    -webkit-animation: shadow-r-n 0.425s ease-in-out infinite alternate;
+		    animation: shadow-r-n 0.425s ease-in-out infinite alternate;
+	    }
+
+	    h1 {
+		    font-family: "Oswald", sans-serif;
+		    color: #404040;
+	    }
+
+	    .text-instruction {
+		    position: relative;
+		    color: #A6A6A6;
+		    font-style: italic;
+		    font-size: 0.75rem;
+	    }
+    </style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+<div class="container-wrapper">
+    <h1>Upgrade in progress</h1>
+    <div class="container">
+        <div class="swing">
+            <div class="swing-l"></div>
+            <div></div>
+            <div class="swing-r"></div>
+        </div>
+        <div class="shadow">
+            <div class="shadow-l"></div>
+            <div></div>
+            <div class="shadow-r"></div>
+        </div>
+    </div>
+    <p class="text-instruction">RevealMR will be back online soon.</p>
+</div>
+</body>
+</html>
