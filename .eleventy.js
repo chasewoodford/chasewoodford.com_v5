@@ -1,5 +1,6 @@
 const pluginDate = require("eleventy-plugin-date");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { DateTime } = require("luxon");
 
 module.exports = (config) => {
 
@@ -13,6 +14,10 @@ module.exports = (config) => {
 	config.setBrowserSyncConfig({
 		files: ["dist/**/*"],
 		open: true,
+	});
+
+	config.addFilter("shortDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj).toFormat("LLL yyyy");
 	});
 
 	config.setDataDeepMerge(true);
