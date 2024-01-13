@@ -5,7 +5,7 @@ featuredImage: screenshot-emailSignatureGenerator.png
 featuredImageAlt: website preview
 date: 2020-04-21
 tags: ["project"]
-projectDescription: Coming soon
+projectDescription: SPA used to generate company email signature files for Outlook.
 ---
 
-Coming soon
+Write up coming soon.

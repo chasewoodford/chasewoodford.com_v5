@@ -5,7 +5,7 @@ featuredImage: screenshot-visionStatement.png
 featuredImageAlt: poster preview
 date: 2016-12-13
 tags: ["project"]
-projectDescription: Coming soon
+projectDescription: Posters created to celebrate our new vision statement.
 ---
 
-Coming soon
+Write up coming soon.
