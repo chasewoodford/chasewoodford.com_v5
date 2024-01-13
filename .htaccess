@@ -1,3 +1,10 @@
+# FORCE HTTPS AND WWW
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 # START GZIP COMPRESSION
 <IfModule mod_gzip.c>
 mod_gzip_on Yes
