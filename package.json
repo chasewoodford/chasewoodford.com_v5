@@ -10,7 +10,7 @@
 		"build": "cross-env NODE_ENV=production npm-run-all clean -p build:*",
 		"build:eleventy": "eleventy",
 		"build:webpack": "webpack",
-		"clean": "rd /s dist",
+		"clean": "rimraf dist",
 		"start": "npm-run-all -p build:* -p start:*",
 		"start:eleventy": "eleventy --serve --quiet",
 		"start:webpack": "webpack --watch"
@@ -31,6 +31,7 @@
 		"postcss": "^8.4.20",
 		"postcss-import": "^14.1.0",
 		"postcss-loader": "^4.3.0",
+		"rimraf": "^5.0.10",
 		"sass": "^1.57.1",
 		"sass-loader": "^13.2.0",
 		"style-loader": "^3.3.1",

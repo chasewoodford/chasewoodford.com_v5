@@ -1,5 +1,5 @@
 node_modules/
 .idea
 /dist
-/resources
+/src/resources/
 package-lock.json

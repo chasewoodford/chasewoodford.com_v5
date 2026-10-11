@@ -3,7 +3,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-	mode: 'development',
+	mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 	entry: './src/assets/js/main.js',
 	plugins: [new MiniCssExtractPlugin ()],
 	output: {
@@ -44,8 +44,9 @@ module.exports = {
 		]
 	},
 	optimization: {
-		minimize: true,
 		minimizer: [
+			// '...' keeps webpack's default JS minifier alongside the CSS one
+			'...',
 			new CssMinimizerPlugin(),
 		],
 	},

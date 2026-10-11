@@ -11,7 +11,9 @@ module.exports = (config) => {
 	config.addPassthroughCopy("src/playground/service-unavailable/revealmr");
 	config.addPassthroughCopy("src/playground/service-unavailable/revealmr-dvd");
 	config.addPassthroughCopy("src/playground/service-unavailable/revealmr2");
-	config.addPassthroughCopy("src/playground/service-unavailable/sidewalk");
+	// Only the HTML: sidewalk.png is already copied via the "png" template format,
+	// and copying it twice fails on a clean build (EPERM on Windows)
+	config.addPassthroughCopy("src/playground/service-unavailable/sidewalk/index.html");
 
 	config.addPassthroughCopy("src/playground/weight-tracker");
 
