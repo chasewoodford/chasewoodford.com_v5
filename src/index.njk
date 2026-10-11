@@ -37,7 +37,6 @@ pagination:
         </div>
         {% if posts.length %}
             {% for post in posts %}
-                {{ post.data.page.url | log }}
                 <a href="{{ post.url | url }}" class="fw-bold text-decoration-none">
                     {{ post.data.title }}
                 </a>
@@ -54,7 +53,6 @@ pagination:
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 g-4">
             {% if collections.project.length %}
                 {% for project in collections.project | reverse %}
-                    {{ project.data.page | log }}
                     <div class="col">
                         <a href="{{ project.url | url }}" class="text-decoration-none">
                         <div class="card card-project h-100">
