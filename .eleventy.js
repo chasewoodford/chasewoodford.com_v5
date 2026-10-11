@@ -20,9 +20,9 @@ module.exports = (config) => {
 	config.addPlugin(pluginDate);
 	config.addPlugin(syntaxHighlight);
 
-	config.setBrowserSyncConfig({
-		files: ["dist/**/*"],
-		open: true,
+	// Reload the dev server when webpack rebuilds main.js / main.css
+	config.setServerOptions({
+		watch: ["dist/main.js", "dist/main.css"],
 	});
 
 	config.addFilter("shortDate", (dateObj) => {
